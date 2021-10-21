@@ -1,0 +1,7 @@
+Discovering modules, targets and source code for project...
+While compiling E:\Unreal Project\FirstProject\Intermediate\Build\BuildRules\FirstProjectModuleRules.dll:
+ERROR: e:\Unreal Project\FirstProject\Source\FirstProject.Target.cs(11,3) : error CS0103: 'DefaultBuildSettings' 이름이 현재 컨텍스트에 없습니다.
+ERROR: e:\Unreal Project\FirstProject\Source\FirstProject.Target.cs(11,26) : error CS0103: 'BuildSettingsVersion' 이름이 현재 컨텍스트에 없습니다.
+ERROR: e:\Unreal Project\FirstProject\Source\FirstProjectEditor.Target.cs(11,3) : error CS0103: 'DefaultBuildSettings' 이름이 현재 컨텍스트에 없습니다.
+ERROR: e:\Unreal Project\FirstProject\Source\FirstProjectEditor.Target.cs(11,26) : error CS0103: 'BuildSettingsVersion' 이름이 현재 컨텍스트에 없습니다.
+ERROR: UnrealBuildTool Exception: Unable to compile source files.
