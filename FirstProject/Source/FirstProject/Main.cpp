@@ -3,7 +3,9 @@
 
 #include "Main.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 
 
 // Sets default values
@@ -18,6 +20,9 @@ AMain::AMain()
 	CameraBoom->TargetArmLength = 300.f;											// 이 거리만큼 카메라가 따라온다.
 	CameraBoom->bUsePawnControlRotation = true;										// 플레이어를 기준으로 회전
 
+	// 충돌을 위한 capsule 크기 설정
+	GetCapsuleComponent()->SetCapsuleSize(48.f, 92.f);
+
 	/*
 	Follow Camera 생성
 	-> Follow Camera를 Camera Boom 끝에 부착하고 Camera Boom이 Controller 방향에 맞게 조정되도록 한다.
@@ -30,6 +35,16 @@ AMain::AMain()
 	// Camera 회전 속도 설정
 	BaseTurnRate = 65.f;
 	BaseLookUpRate = 65.f;
+
+	// Controller가 회전할때 회전 X
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+
+	/* 캐릭터 움직임 구성 */
+	GetCharacterMovement()->bOrientRotationToMovement = true;						// true -> Character가 자동으로 direction 방향으로 향함
+	GetCharacterMovement()->JumpZVelocity = 500.f;									// 점프의 높이, 속도
+	GetCharacterMovement()->AirControl = 0.2f;										// AirControl -> 공중에 있는 동안 캐릭터를 약간 움직일 수 있음
 }
 
 // Called when the game starts or when spawned

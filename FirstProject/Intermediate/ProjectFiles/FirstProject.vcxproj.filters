@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6813267D-C9E2-4401-88FF-45CA5789BF79}</UniqueIdentifier>
+      <UniqueIdentifier>{5876B755-09D4-48E8-839D-95A0D4F8A60F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5C668CBD-1C7A-49DA-B87B-6E3EC5F65AC3}</UniqueIdentifier>
+      <UniqueIdentifier>{982DEDEB-018C-479A-A513-8E9C3531D877}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstProject">
-      <UniqueIdentifier>{469F2450-65BE-4CCD-9CAB-78960F87399D}</UniqueIdentifier>
+      <UniqueIdentifier>{8540F35F-9A01-4F06-934E-69A95DF26776}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FirstProject\Critter.cpp">
       <Filter>Source\FirstProject</Filter>
@@ -54,6 +54,12 @@
       <Filter>Source\FirstProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FirstProject\Main.h">
+      <Filter>Source\FirstProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstProject\MainAnimInstance.cpp">
+      <Filter>Source\FirstProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstProject\MainAnimInstance.h">
       <Filter>Source\FirstProject</Filter>
     </ClInclude>
   </ItemGroup>
