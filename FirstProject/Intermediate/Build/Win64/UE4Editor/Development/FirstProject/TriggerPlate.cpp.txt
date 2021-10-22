@@ -1,0 +1,7 @@
+E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\Definitions.FirstProject.h
+E:\Unreal Project\FirstProject\Source\FirstProject\TriggerPlate.h
+E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Inc\FirstProject\TriggerPlate.generated.h
+E:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+E:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+E:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+E:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h

@@ -16,9 +16,11 @@ AMain::AMain()
 
 	// Camera Boom 생성 (충돌이 있을 경우 플레이어를 향해 당긴다.)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	CameraBoom->SetRelativeRotation(FRotator(-30.f, 0.f, 0.f));
 	CameraBoom->SetupAttachment(GetRootComponent());
-	CameraBoom->TargetArmLength = 300.f;											// 이 거리만큼 카메라가 따라온다.
+	CameraBoom->TargetArmLength = 250.f;											// 이 거리만큼 카메라가 따라온다.
 	CameraBoom->bUsePawnControlRotation = true;										// 플레이어를 기준으로 회전
+
 
 	// 충돌을 위한 capsule 크기 설정
 	GetCapsuleComponent()->SetCapsuleSize(48.f, 92.f);
