@@ -24,7 +24,6 @@ struct FVector;
 
 
 #define FirstProject_Source_FirstProject_SpawnVolume_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void SpawnPawns_Implementation(UClass* ToSpawn, FVector const& Location); \
  \
 	DECLARE_FUNCTION(execSpawnPawns); \
 	DECLARE_FUNCTION(execGetSpawnPoint);

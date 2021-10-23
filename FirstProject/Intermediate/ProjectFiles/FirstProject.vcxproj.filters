@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{247BC34B-931D-4F73-A9B0-E980F4912B14}</UniqueIdentifier>
+      <UniqueIdentifier>{647B13A2-92AA-4ED2-BAF3-0CAA6F1E9AA0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C0EC5548-AC67-4AA1-98D3-8204E840BE1F}</UniqueIdentifier>
+      <UniqueIdentifier>{8CB94138-FB74-4449-BE2D-A391A097684F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstProject">
-      <UniqueIdentifier>{B040CD76-EF37-421F-AB30-DE342F4CAB4C}</UniqueIdentifier>
+      <UniqueIdentifier>{9E3180EB-9BFB-4B2B-8124-71434548DFA8}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FirstProject\Coin.cpp">
+      <Filter>Source\FirstProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstProject\Coin.h">
+      <Filter>Source\FirstProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstProject\Critter.cpp">
       <Filter>Source\FirstProject</Filter>
     </ClCompile>
@@ -50,6 +56,18 @@
     <ClInclude Include="..\..\Source\FirstProject\FirstProjectGameModeBase.h">
       <Filter>Source\FirstProject</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FirstProject\FloatingPlatform.cpp">
+      <Filter>Source\FirstProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstProject\FloatingPlatform.h">
+      <Filter>Source\FirstProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstProject\Item.cpp">
+      <Filter>Source\FirstProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstProject\Item.h">
+      <Filter>Source\FirstProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstProject\Main.cpp">
       <Filter>Source\FirstProject</Filter>
     </ClCompile>
@@ -66,6 +84,12 @@
       <Filter>Source\FirstProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FirstProject\SpawnVolume.h">
+      <Filter>Source\FirstProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstProject\Trap.cpp">
+      <Filter>Source\FirstProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstProject\Trap.h">
       <Filter>Source\FirstProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FirstProject\TriggerPlate.cpp">

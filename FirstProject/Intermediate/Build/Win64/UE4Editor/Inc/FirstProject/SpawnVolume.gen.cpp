@@ -76,7 +76,9 @@ void EmptyLinkFunctionForGeneratedCodeSpawnVolume() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASpawnVolume_GetSpawnPoint_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Spawning" },
+		{ "Comment", "/** Spawn ??\xc4\xa1 */" },
 		{ "ModuleRelativePath", "SpawnVolume.h" },
+		{ "ToolTip", "Spawn ??\xc4\xa1" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASpawnVolume_GetSpawnPoint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASpawnVolume, nullptr, "GetSpawnPoint", nullptr, nullptr, sizeof(SpawnVolume_eventGetSpawnPoint_Parms), Z_Construct_UFunction_ASpawnVolume_GetSpawnPoint_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ASpawnVolume_GetSpawnPoint_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASpawnVolume_GetSpawnPoint_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ASpawnVolume_GetSpawnPoint_Statics::Function_MetaDataParams)) };
@@ -116,7 +118,9 @@ void EmptyLinkFunctionForGeneratedCodeSpawnVolume() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASpawnVolume_SpawnPawns_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Spawning" },
+		{ "Comment", "/** ?????? ???? ?\xd4\xbc? \n\x09* BlueprintNativeEvent: C++?? ?\xe2\xba\xbb ?\xdb\xb5? ?????? ???\xce\xb1\xd7\xb7??? ?\xc7\xbe???????, Blueprint Graph?? ?????\xe1\xbc\xad ???? or ??\xc3\xbc ?????\xcf\xb4?\n\x09*/" },
 		{ "ModuleRelativePath", "SpawnVolume.h" },
+		{ "ToolTip", "?????? ???? ?\xd4\xbc?\nBlueprintNativeEvent: C++?? ?\xe2\xba\xbb ?\xdb\xb5? ?????? ???\xce\xb1\xd7\xb7??? ?\xc7\xbe???????, Blueprint Graph?? ?????\xe1\xbc\xad ???? or ??\xc3\xbc ?????\xcf\xb4?" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASpawnVolume_SpawnPawns_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASpawnVolume, nullptr, "SpawnPawns", nullptr, nullptr, sizeof(SpawnVolume_eventSpawnPawns_Parms), Z_Construct_UFunction_ASpawnVolume_SpawnPawns_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ASpawnVolume_SpawnPawns_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0CC20C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASpawnVolume_SpawnPawns_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ASpawnVolume_SpawnPawns_Statics::Function_MetaDataParams)) };
@@ -157,8 +161,8 @@ void EmptyLinkFunctionForGeneratedCodeSpawnVolume() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FirstProject,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASpawnVolume_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASpawnVolume_GetSpawnPoint, "GetSpawnPoint" }, // 1368547374
-		{ &Z_Construct_UFunction_ASpawnVolume_SpawnPawns, "SpawnPawns" }, // 3431713357
+		{ &Z_Construct_UFunction_ASpawnVolume_GetSpawnPoint, "GetSpawnPoint" }, // 2009093084
+		{ &Z_Construct_UFunction_ASpawnVolume_SpawnPawns, "SpawnPawns" }, // 2751242498
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpawnVolume_Statics::Class_MetaDataParams[] = {
@@ -169,7 +173,9 @@ void EmptyLinkFunctionForGeneratedCodeSpawnVolume() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpawnVolume_Statics::NewProp_PawnToSpawn_MetaData[] = {
 		{ "Category", "Spawning" },
+		{ "Comment", "/** Spawn?? Pawn */" },
 		{ "ModuleRelativePath", "SpawnVolume.h" },
+		{ "ToolTip", "Spawn?? Pawn" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASpawnVolume_Statics::NewProp_PawnToSpawn = { "PawnToSpawn", nullptr, (EPropertyFlags)0x0014000000000015, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpawnVolume, PawnToSpawn), Z_Construct_UClass_ACritter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ASpawnVolume_Statics::NewProp_PawnToSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASpawnVolume_Statics::NewProp_PawnToSpawn_MetaData)) };
@@ -214,7 +220,7 @@ void EmptyLinkFunctionForGeneratedCodeSpawnVolume() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASpawnVolume, 1708473768);
+	IMPLEMENT_CLASS(ASpawnVolume, 1006610035);
 	template<> FIRSTPROJECT_API UClass* StaticClass<ASpawnVolume>()
 	{
 		return ASpawnVolume::StaticClass();
