@@ -50,9 +50,19 @@ AMain::AMain()
 
 	MaxHealth = 100.f;
 	Health = 65.f;
-	MaxStamina = 350.f;
-	Stamina = 120.f;
+	MaxStamina = 300.f;
+	Stamina = 150.f;
 	Coins = 0;
+
+	RunningSpeed = 650.f;
+	SprintingSpeed = 1200.f;
+
+	MovementStatus = EMovementStatus::EMS_Normal;
+	StaminaStatus = EStaminaStatus::ESS_Normal;
+
+	StaminaDrainRate = 25.f;
+	StaminaRecoveryRate = 15.f;
+	MinSprintStamina = 150.f;
 }
 
 // Called when the game starts or when spawned
@@ -67,6 +77,41 @@ void AMain::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	float DeltaStaminaDrain = StaminaDrainRate * DeltaTime;
+	float DeltaStaminaRecovery = StaminaRecoveryRate * DeltaTime;
+	switch (StaminaStatus) {
+		UE_LOG(LogTemp, Warning, TEXT("test"));
+	case EStaminaStatus::ESS_Normal:
+		if (MovementStatus == EMovementStatus::EMS_Sprinting) {
+			Stamina -= DeltaStaminaDrain;
+			if (Stamina <= 0.f) {
+				Stamina = 0.f;
+				StaminaStatus = EStaminaStatus::ESS_Exhuasted;
+				MovementStatus = EMovementStatus::EMS_Normal;
+			}
+		}
+		else {
+			if (Stamina < MaxStamina) {
+				Stamina += DeltaStaminaRecovery;
+				if (Stamina > MaxStamina) {
+					Stamina = MaxStamina;
+				}
+			}
+		}
+		break;
+
+	case EStaminaStatus::ESS_Exhuasted:
+		if (Stamina < MaxStamina) {
+			Stamina += DeltaStaminaRecovery;
+			if (Stamina > MaxStamina) {
+				Stamina = MaxStamina;
+			}
+		}
+		else {
+			StaminaStatus = EStaminaStatus::ESS_Normal;
+		}
+		break;
+	}
 }
 
 // Called to bind functionality to input
@@ -79,6 +124,9 @@ void AMain::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMain::ShiftKeyPressed);
+	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMain::ShiftKeyReleased);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMain::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMain::MoveRight);
@@ -141,3 +189,24 @@ void AMain::IncrementCoin() {
 	Coins++;
 }
 
+void AMain::SetMovementStatus(EMovementStatus Status) {
+	MovementStatus = Status;
+	if (MovementStatus == EMovementStatus::EMS_Sprinting) {
+		GetCharacterMovement()->MaxWalkSpeed = SprintingSpeed;
+	}
+	else {
+		GetCharacterMovement()->MaxWalkSpeed = RunningSpeed;
+	}
+}
+
+
+
+void AMain::ShiftKeyPressed() {
+	if (StaminaStatus == EStaminaStatus::ESS_Normal)
+		if (Stamina >= MinSprintStamina)
+			MovementStatus = EMovementStatus::EMS_Sprinting;
+}
+
+void AMain::ShiftKeyReleased() {
+	MovementStatus = EMovementStatus::EMS_Normal;
+}

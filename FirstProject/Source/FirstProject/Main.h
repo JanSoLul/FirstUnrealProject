@@ -6,6 +6,22 @@
 #include "GameFramework/Character.h"
 #include "Main.generated.h"
 
+UENUM(BlueprintType)
+enum class EMovementStatus : uint8 {
+	EMS_Normal UMETA(DisplayName = "Normal"),
+	EMS_Sprinting UMETA(DisplayName = "Sprinting"),
+
+	EMS_MAX UMETA(DisplayName = "DefaultMax")
+};
+
+UENUM(BlueprintType)
+enum class EStaminaStatus : uint8 {
+	ESS_Normal UMETA(DisplayName = "Normal"),
+	ESS_Exhuasted UMETA(DisplayName = "Exhuasted"),
+
+	ESS_MAX UMETA(DisplayName = "DefaultMax"),
+};
+
 UCLASS()
 class FIRSTPROJECT_API AMain : public ACharacter
 {
@@ -14,6 +30,12 @@ class FIRSTPROJECT_API AMain : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AMain();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Enums")
+	EMovementStatus MovementStatus;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Enums")
+	EStaminaStatus StaminaStatus;
 
 	/** Camera Boom -> Player 뒤에 카메라를 위치시킨다. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -42,6 +64,26 @@ public:
 	float Stamina;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Player Stats")
 	int32 Coins;
+
+	/** 일반 달리기 스피드 */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float RunningSpeed;
+
+	/** 전력 질주 스피드 */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float SprintingSpeed;
+
+	/** 전력 질주할 때 소모되는 Stamina */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float StaminaDrainRate;
+
+	/** 전력 질주하기 위해 필요한 최소 Stamina */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float MinSprintStamina;
+
+	/** 시간당 자동으로 회복되는 Stamina */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float StaminaRecoveryRate;
 
 protected:
 	// Called when the game starts or when spawned
@@ -78,6 +120,15 @@ public:
 
 	/** 캐릭터가 죽었는지 체크 */
 	void Die();
+
+	/** 캐릭터 운동 상태와 Running 속도 설정 */
+	void SetMovementStatus(EMovementStatus Status);
+
+	/** Shift키 눌러져 있을 경우 */
+	void ShiftKeyPressed();
+
+	/** Shift키 뗐을 경우 */
+	void ShiftKeyReleased();
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
