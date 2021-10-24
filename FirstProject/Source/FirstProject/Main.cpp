@@ -47,6 +47,12 @@ AMain::AMain()
 	GetCharacterMovement()->bOrientRotationToMovement = true;						// true -> Character가 자동으로 direction 방향으로 향함
 	GetCharacterMovement()->JumpZVelocity = 500.f;									// 점프의 높이, 속도
 	GetCharacterMovement()->AirControl = 0.2f;										// AirControl -> 공중에 있는 동안 캐릭터를 약간 움직일 수 있음
+
+	MaxHealth = 100.f;
+	Health = 65.f;
+	MaxStamina = 350.f;
+	Stamina = 120.f;
+	Coins = 0;
 }
 
 // Called when the game starts or when spawned
@@ -114,5 +120,24 @@ void AMain::TurnAtRate(float Rate) {
 
 void AMain::LookUpAtRate(float Rate) {
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+void AMain::DecrementHealth(float Amount) {
+	if (Health - Amount <= 0.f) {
+		Health = 0.f;
+		Die();
+	}
+	else {
+		Health -= Amount;
+	}
+}
+
+
+void AMain::Die() {
+
+}
+
+void AMain::IncrementCoin() {
+	Coins++;
 }
 

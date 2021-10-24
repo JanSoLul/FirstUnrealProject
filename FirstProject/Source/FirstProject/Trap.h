@@ -15,6 +15,11 @@ class FIRSTPROJECT_API ATrap : public AItem
 	GENERATED_BODY()
 
 public:
+	/** 함정 피격 데미지 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage")
+	float Damage;
+
+public:
 
 	ATrap();
 

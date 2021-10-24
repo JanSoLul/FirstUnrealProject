@@ -9,6 +9,12 @@ ACoin::ACoin() {
 
 void ACoin::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 	Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
+	if (OtherActor) {
+		AMain* MainPlayer = Cast<AMain>(OtherActor);
+		if (MainPlayer) {
+			MainPlayer->IncrementCoin();
+		}
+	}
 }
 
 void ACoin::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex) {

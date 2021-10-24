@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCoin() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACoin, 639012017);
+	IMPLEMENT_CLASS(ACoin, 1548895569);
 	template<> FIRSTPROJECT_API UClass* StaticClass<ACoin>()
 	{
 		return ACoin::StaticClass();

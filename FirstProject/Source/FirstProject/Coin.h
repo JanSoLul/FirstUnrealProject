@@ -13,6 +13,7 @@ UCLASS()
 class FIRSTPROJECT_API ACoin : public AItem
 {
 	GENERATED_BODY()
+
 public:
 
 	ACoin();

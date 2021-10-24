@@ -29,6 +29,19 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	float BaseLookUpRate;
 
+	/**
+	/* Player Stats
+	*/
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Player Stats")
+	float MaxHealth;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	float Health;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Player Stats")
+	float MaxStamina;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	float Stamina;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Player Stats")
+	int32 Coins;
 
 protected:
 	// Called when the game starts or when spawned
@@ -48,14 +61,23 @@ public:
 	void MoveRight(float Value);
 
 	/** 주어진 Rate만큼 회전하기 위해 Input을 통해 호출된다. 
-	* @param Rate: Normalize된 Rate, 1.0은 100%의 회전율을 의미한다.
+	/* @param Rate: Normalize된 Rate, 1.0은 100%의 회전율을 의미한다.
 	*/
 	void TurnAtRate(float Rate);
 
 	/** 주어진 Rate만큼 아래/위로 보기 위해 Input을 통해 호출된다.
-	* @param Rate: Normalize된 Rate, 1.0은 100%의 회전율을 의미한다.
+	/* @param Rate: Normalize된 Rate, 1.0은 100%의 회전율을 의미한다.
 	*/
 	void LookUpAtRate(float Rate);
+
+	/** 체력 Amount 만큼 감소 */
+	void DecrementHealth(float Amount);
+
+	/** Coin 수 증가 함수 */
+	void IncrementCoin();
+
+	/** 캐릭터가 죽었는지 체크 */
+	void Die();
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }

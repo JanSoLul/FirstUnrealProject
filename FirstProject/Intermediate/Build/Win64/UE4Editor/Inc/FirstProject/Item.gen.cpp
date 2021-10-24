@@ -298,14 +298,18 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_OverlapSound_MetaData[] = {
 		{ "Category", "Item | Sounds" },
+		{ "Comment", "/** \xc4\xb3???\xcd\xbf? ?????? ?? ?????\xc7\xb4? \xc8\xbf???? */" },
 		{ "ModuleRelativePath", "Item.h" },
+		{ "ToolTip", "\xc4\xb3???\xcd\xbf? ?????? ?? ?????\xc7\xb4? \xc8\xbf????" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_OverlapSound = { "OverlapSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, OverlapSound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_OverlapSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_OverlapSound_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_bIsRotate_MetaData[] = {
 		{ "Category", "Item | ItemProperties" },
+		{ "Comment", "/** \xc8\xb8???? ?????? \xc3\xbc\xc5\xa9 */" },
 		{ "ModuleRelativePath", "Item.h" },
+		{ "ToolTip", "\xc8\xb8???? ?????? \xc3\xbc\xc5\xa9" },
 	};
 #endif
 	void Z_Construct_UClass_AItem_Statics::NewProp_bIsRotate_SetBit(void* Obj)
@@ -316,7 +320,9 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_RotationRate_MetaData[] = {
 		{ "Category", "Item | ItemProperties" },
+		{ "Comment", "/** \xc8\xb8?? ?\xd3\xb5? */" },
 		{ "ModuleRelativePath", "Item.h" },
+		{ "ToolTip", "\xc8\xb8?? ?\xd3\xb5?" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_RotationRate = { "RotationRate", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, RotationRate), METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_RotationRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_RotationRate_MetaData)) };
@@ -356,7 +362,7 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AItem, 1683917150);
+	IMPLEMENT_CLASS(AItem, 1597801815);
 	template<> FIRSTPROJECT_API UClass* StaticClass<AItem>()
 	{
 		return AItem::StaticClass();

@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Damage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Damage;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +50,18 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 		{ "ModuleRelativePath", "Trap.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Statics::NewProp_Damage_MetaData[] = {
+		{ "Category", "Damage" },
+		{ "Comment", "/** ???? ?\xc7\xb0? ?????? */" },
+		{ "ModuleRelativePath", "Trap.h" },
+		{ "ToolTip", "???? ?\xc7\xb0? ??????" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, Damage), METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_Damage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_Damage_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATrap_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_Damage,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATrap_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATrap>::IsAbstract,
 	};
@@ -54,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ATrap_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::Class_MetaDataParams))
@@ -72,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrap, 643340556);
+	IMPLEMENT_CLASS(ATrap, 66713059);
 	template<> FIRSTPROJECT_API UClass* StaticClass<ATrap>()
 	{
 		return ATrap::StaticClass();
