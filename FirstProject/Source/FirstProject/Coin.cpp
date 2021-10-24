@@ -14,6 +14,7 @@ void ACoin::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		if (MainPlayer) {
 			MainPlayer->IncrementCoin();
 		}
+		Destroy();
 	}
 }
 

@@ -14,6 +14,7 @@ void ATrap::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		if (MainPlayer) {
 			MainPlayer->DecrementHealth(Damage);
 		}
+		Destroy();
 	}
 }
 

@@ -31,3 +31,7 @@ E:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleCom
 E:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 E:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 E:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+E:\Unreal Project\FirstProject\Source\FirstProject\Weapon.h
+E:\Unreal Project\FirstProject\Source\FirstProject\Item.h
+E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Inc\FirstProject\Item.generated.h
+E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Inc\FirstProject\Weapon.generated.h

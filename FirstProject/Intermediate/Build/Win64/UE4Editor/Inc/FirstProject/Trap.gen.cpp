@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrap, 66713059);
+	IMPLEMENT_CLASS(ATrap, 1737720467);
 	template<> FIRSTPROJECT_API UClass* StaticClass<ATrap>()
 	{
 		return ATrap::StaticClass();

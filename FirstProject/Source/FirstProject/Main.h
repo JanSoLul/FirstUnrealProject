@@ -65,6 +65,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Player Stats")
 	int32 Coins;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Skill")
+	float SkillCoolDown;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Player Stats")
+	float SkillCool;
+
 	/** 일반 달리기 스피드 */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
 	float RunningSpeed;
@@ -84,6 +89,28 @@ public:
 	/** 시간당 자동으로 회복되는 Stamina */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
 	float StaminaRecoveryRate;
+
+	/** 장착한 무기 */
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Items")
+	class AWeapon* EquippedWeapon;
+
+	/** 장착한 무기 */
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Items")
+	class AItem* ActiveOverlappingItem;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Anims")
+	class UAnimMontage* CombatMontage;
+
+	bool bIsLeftMouseButtonPressed;
+
+	/** 무기 장착했는지 체크 */
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Items")
+	bool bIsEquipped;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Anims")
+	bool bAttacking;
+
+	bool bIsCoolDown;
 
 protected:
 	// Called when the game starts or when spawned
@@ -130,6 +157,31 @@ public:
 	/** Shift키 뗐을 경우 */
 	void ShiftKeyReleased();
 
+	void LeftMouseButtonPressed();
+	void LeftMouseButtonReleased();
+
+	/** 기본 공격 */
+	void Attack();
+
+	/** Q 눌렀을 때의 공격 */
+	void AttackQ();
+
+	/** E 눌렀을 때의 공격 */
+	void AttackE();
+
+	/** R 눌렀을 때의 공격 */
+	void AttackR();
+
+	/** 공격 끝났을 때 호출 */
+	UFUNCTION(BlueprintCallable)
+	void AttackEnd();
+
+	void AttackReleased();
+
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+	FORCEINLINE void SetEquippedWeapon(AWeapon* WeaponToSet) { EquippedWeapon = WeaponToSet; }
+	FORCEINLINE AWeapon* GetEquippedWeapon() { return EquippedWeapon; }
+	FORCEINLINE void SetActiveOverlappingItem(AItem* ItemToSet) { ActiveOverlappingItem = ItemToSet; }
+	FORCEINLINE bool GetIsEquipped() { return bIsEquipped; }
 };

@@ -6,6 +6,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Weapon.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Animation/AnimInstance.h"
 
 
 // Sets default values
@@ -54,6 +57,9 @@ AMain::AMain()
 	Stamina = 150.f;
 	Coins = 0;
 
+	SkillCool = 5.f;
+	SkillCoolDown = 5.f;
+
 	RunningSpeed = 650.f;
 	SprintingSpeed = 1200.f;
 
@@ -63,6 +69,10 @@ AMain::AMain()
 	StaminaDrainRate = 25.f;
 	StaminaRecoveryRate = 15.f;
 	MinSprintStamina = 150.f;
+	bIsLeftMouseButtonPressed = false;
+	bIsEquipped = false;
+	bAttacking = false;
+	bIsCoolDown = false;
 }
 
 // Called when the game starts or when spawned
@@ -112,6 +122,13 @@ void AMain::Tick(float DeltaTime)
 		}
 		break;
 	}
+	if (bIsCoolDown) {
+		SkillCoolDown += DeltaTime;
+		if (SkillCoolDown >= SkillCool) {
+			SkillCoolDown = SkillCool;
+			bIsCoolDown = true;
+		}
+	}
 }
 
 // Called to bind functionality to input
@@ -128,6 +145,19 @@ void AMain::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AMain::ShiftKeyPressed);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AMain::ShiftKeyReleased);
 
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AMain::LeftMouseButtonPressed);
+	PlayerInputComponent->BindAction("Attack", IE_Released, this, &AMain::LeftMouseButtonReleased);
+
+
+	PlayerInputComponent->BindAction("AttackQ", IE_Pressed, this, &AMain::AttackQ);
+	PlayerInputComponent->BindAction("AttackQ", IE_Released, this, &AMain::AttackReleased);
+
+	PlayerInputComponent->BindAction("AttackE", IE_Pressed, this, &AMain::AttackE);
+	PlayerInputComponent->BindAction("AttackE", IE_Released, this, &AMain::AttackReleased);
+
+	PlayerInputComponent->BindAction("AttackR", IE_Pressed, this, &AMain::AttackR);
+	PlayerInputComponent->BindAction("AttackR", IE_Released, this, &AMain::AttackReleased);
+
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMain::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMain::MoveRight);
 
@@ -140,7 +170,7 @@ void AMain::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 // 앞, 뒤 입력 -> 이동
 void AMain::MoveForward(float Value) {
-	if (Controller != nullptr && Value != 0.f) {
+	if (Controller != nullptr && Value != 0.f && !bAttacking) {
 		// 앞쪽 방향이 어느 방향인지 찾는다.
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -152,7 +182,7 @@ void AMain::MoveForward(float Value) {
 
 // 좌, 우 입력 -> 이동
 void AMain::MoveRight(float Value) {
-	if (Controller != nullptr && Value != 0.f) {
+	if (Controller != nullptr && Value != 0.f && !bAttacking) {
 		// 앞쪽 방향이 어느 방향인지 찾는다.
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -210,3 +240,82 @@ void AMain::ShiftKeyPressed() {
 void AMain::ShiftKeyReleased() {
 	MovementStatus = EMovementStatus::EMS_Normal;
 }
+
+void AMain::LeftMouseButtonPressed() {
+	bIsLeftMouseButtonPressed = true;
+	if (ActiveOverlappingItem) {
+		AWeapon* Weapon = Cast<AWeapon>(ActiveOverlappingItem);
+		if (Weapon) {
+			Weapon->Equip(this);
+			bIsEquipped = true;
+		}
+		SetActiveOverlappingItem(nullptr);
+	}
+	else if (bIsEquipped){
+		Attack();
+	}
+}
+
+void AMain::LeftMouseButtonReleased() {
+	bIsLeftMouseButtonPressed = false;
+}
+
+void AMain::Attack() {
+	if (!bAttacking) {
+		bAttacking = true;
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		if (AnimInstance && CombatMontage) {
+			AnimInstance->Montage_Play(CombatMontage, 1.35f);
+			AnimInstance->Montage_JumpToSection(FName("NormalAttack"), CombatMontage);
+		}
+	}
+}
+
+void AMain::AttackQ() {
+	if (bIsEquipped) {
+		if (SkillCoolDown >= SkillCool) {
+			bIsCoolDown = true;
+			SkillCoolDown = 0.f;
+			bAttacking = true;
+			UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+			if (AnimInstance && CombatMontage) {
+				AnimInstance->Montage_Play(CombatMontage, 1.5f);
+				AnimInstance->Montage_JumpToSection(FName("AttackQ"), CombatMontage);
+			}
+		}
+	}
+}
+
+void AMain::AttackE() {
+	if (bIsEquipped) {
+		bAttacking = true;
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		if (AnimInstance && CombatMontage) {
+			AnimInstance->Montage_Play(CombatMontage, 1.35f);
+			AnimInstance->Montage_JumpToSection(FName("AttackE"), CombatMontage);
+		}
+	}
+}
+
+void AMain::AttackR() {
+	if (bIsEquipped) {
+		bAttacking = true;
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		if (AnimInstance && CombatMontage) {
+			AnimInstance->Montage_Play(CombatMontage, 1.35f);
+			AnimInstance->Montage_JumpToSection(FName("AttackR"), CombatMontage);
+		}
+	}
+}
+
+void AMain::AttackEnd() {
+	bAttacking = false;
+	if (bIsLeftMouseButtonPressed) {
+		Attack();
+	}
+}
+
+
+void AMain::AttackReleased() {
+}
+

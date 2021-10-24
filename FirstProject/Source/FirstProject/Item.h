@@ -39,6 +39,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item | ItemProperties")
 	bool bIsRotate;
 
+	/** 둥둥 떠다닐 것인지 체크 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item | ItemProperties")
+	bool bIsFloating;
+
 	/** 회전 속도 */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item | ItemProperties")
 	float RotationRate;

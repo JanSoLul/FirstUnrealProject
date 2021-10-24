@@ -24,7 +24,8 @@ AItem::AItem()
 	IdleParticleComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("IdleParticleComponent"));
 	IdleParticleComponent->SetupAttachment(GetRootComponent());
 
-	bIsRotate = false;
+	bIsRotate = true;
+	bIsFloating = true;
 	RotationRate = 45.f;
 	RunningTime = 0.f;
 	Weight = 20.f;
@@ -50,11 +51,13 @@ void AItem::Tick(float DeltaTime)
 		SetActorRotation(Rotation);
 	}
 	// 아래/위로 움직이면서 둥둥 떠다니는듯한 애니메이션
-	FVector NewLocation = GetActorLocation();
-	float DeltaHeight = FMath::Sin(RunningTime + DeltaTime) - FMath::Sin(RunningTime);
-	NewLocation.Z += DeltaHeight * Weight;
-	RunningTime += DeltaTime;
-	SetActorLocation(NewLocation);
+	if (bIsFloating) {
+		FVector NewLocation = GetActorLocation();
+		float DeltaHeight = FMath::Sin(RunningTime + DeltaTime) - FMath::Sin(RunningTime);
+		NewLocation.Z += DeltaHeight * Weight;
+		RunningTime += DeltaTime;
+		SetActorLocation(NewLocation);
+	}
 }
 
 void AItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
@@ -66,7 +69,6 @@ void AItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	if (OverlapSound) {
 		UGameplayStatics::PlaySound2D(this, OverlapSound);
 	}
-	Destroy();
 }
 
 void AItem::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex) {

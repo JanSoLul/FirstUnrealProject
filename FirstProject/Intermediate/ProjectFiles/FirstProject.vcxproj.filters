@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A00A52CD-BAAA-49EC-BB99-29F9985C2EC8}</UniqueIdentifier>
+      <UniqueIdentifier>{9B67F4D9-98DE-4CB7-8C25-39C3120B8DC8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B18DBC93-8005-4004-AE3F-F367BBDA55E3}</UniqueIdentifier>
+      <UniqueIdentifier>{AF16E62C-5B32-48C0-9289-2B4030F19ECC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstProject">
-      <UniqueIdentifier>{DA5B6583-4289-44C1-98BF-D725A33F0BFF}</UniqueIdentifier>
+      <UniqueIdentifier>{2B51EEAF-557E-474C-8D0B-FCD91501911F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FirstProject\Coin.cpp">
       <Filter>Source\FirstProject</Filter>
@@ -102,6 +102,12 @@
       <Filter>Source\FirstProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FirstProject\TriggerPlate.h">
+      <Filter>Source\FirstProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstProject\Weapon.cpp">
+      <Filter>Source\FirstProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstProject\Weapon.h">
       <Filter>Source\FirstProject</Filter>
     </ClInclude>
   </ItemGroup>
