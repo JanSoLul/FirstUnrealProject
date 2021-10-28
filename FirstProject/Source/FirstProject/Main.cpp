@@ -57,8 +57,12 @@ AMain::AMain()
 	Stamina = 150.f;
 	Coins = 0;
 
-	SkillCool = 5.f;
-	SkillCoolDown = 5.f;
+	QSkillCool = 8.f;
+	QSkillCoolDown = 8.f;
+	ESkillCool = 12.f;
+	ESkillCoolDown = 12.f;
+	RSkillCool = 16.f;
+	RSkillCoolDown = 16.f;
 
 	RunningSpeed = 650.f;
 	SprintingSpeed = 1200.f;
@@ -72,7 +76,9 @@ AMain::AMain()
 	bIsLeftMouseButtonPressed = false;
 	bIsEquipped = false;
 	bAttacking = false;
-	bIsCoolDown = false;
+	bIsQSkillCoolDown = false;
+	bIsESkillCoolDown = false;
+	bIsRSkillCoolDown = false;
 }
 
 // Called when the game starts or when spawned
@@ -90,7 +96,6 @@ void AMain::Tick(float DeltaTime)
 	float DeltaStaminaDrain = StaminaDrainRate * DeltaTime;
 	float DeltaStaminaRecovery = StaminaRecoveryRate * DeltaTime;
 	switch (StaminaStatus) {
-		UE_LOG(LogTemp, Warning, TEXT("test"));
 	case EStaminaStatus::ESS_Normal:
 		if (MovementStatus == EMovementStatus::EMS_Sprinting) {
 			Stamina -= DeltaStaminaDrain;
@@ -122,11 +127,25 @@ void AMain::Tick(float DeltaTime)
 		}
 		break;
 	}
-	if (bIsCoolDown) {
-		SkillCoolDown += DeltaTime;
-		if (SkillCoolDown >= SkillCool) {
-			SkillCoolDown = SkillCool;
-			bIsCoolDown = true;
+	if (bIsQSkillCoolDown) {
+		QSkillCoolDown += DeltaTime;
+		if (QSkillCoolDown >= QSkillCool) {
+			QSkillCoolDown = QSkillCool;
+			bIsQSkillCoolDown = true;
+		}
+	}
+	if (bIsESkillCoolDown) {
+		ESkillCoolDown += DeltaTime;
+		if (ESkillCoolDown >= ESkillCool) {
+			ESkillCoolDown = ESkillCool;
+			bIsESkillCoolDown = true;
+		}
+	}
+	if (bIsRSkillCoolDown) {
+		RSkillCoolDown += DeltaTime;
+		if (RSkillCoolDown >= RSkillCool) {
+			RSkillCoolDown = RSkillCool;
+			bIsRSkillCoolDown = true;
 		}
 	}
 }
@@ -265,17 +284,24 @@ void AMain::Attack() {
 		bAttacking = true;
 		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 		if (AnimInstance && CombatMontage) {
-			AnimInstance->Montage_Play(CombatMontage, 1.35f);
-			AnimInstance->Montage_JumpToSection(FName("NormalAttack"), CombatMontage);
+			int32 RandNum = FMath::RandRange(0, 1);
+			if (RandNum == 0) {
+				AnimInstance->Montage_Play(CombatMontage, 1.35f);
+				AnimInstance->Montage_JumpToSection(FName("NormalAttack"), CombatMontage);
+			}
+			else {
+				AnimInstance->Montage_Play(CombatMontage, 1.35f);
+				AnimInstance->Montage_JumpToSection(FName("NormalAttackB"), CombatMontage);
+			}
 		}
 	}
 }
 
 void AMain::AttackQ() {
 	if (bIsEquipped) {
-		if (SkillCoolDown >= SkillCool) {
-			bIsCoolDown = true;
-			SkillCoolDown = 0.f;
+		if (QSkillCoolDown >= QSkillCool) {
+			bIsQSkillCoolDown = true;
+			QSkillCoolDown = 0.f;
 			bAttacking = true;
 			UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 			if (AnimInstance && CombatMontage) {
@@ -288,22 +314,30 @@ void AMain::AttackQ() {
 
 void AMain::AttackE() {
 	if (bIsEquipped) {
-		bAttacking = true;
-		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
-		if (AnimInstance && CombatMontage) {
-			AnimInstance->Montage_Play(CombatMontage, 1.35f);
-			AnimInstance->Montage_JumpToSection(FName("AttackE"), CombatMontage);
+		if (ESkillCoolDown >= ESkillCool) {
+			bIsESkillCoolDown = true;
+			ESkillCoolDown = 0.f;
+			bAttacking = true;
+			UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+			if (AnimInstance && CombatMontage) {
+				AnimInstance->Montage_Play(CombatMontage, 1.35f);
+				AnimInstance->Montage_JumpToSection(FName("AttackE"), CombatMontage);
+			}
 		}
 	}
 }
 
 void AMain::AttackR() {
 	if (bIsEquipped) {
-		bAttacking = true;
-		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
-		if (AnimInstance && CombatMontage) {
-			AnimInstance->Montage_Play(CombatMontage, 1.35f);
-			AnimInstance->Montage_JumpToSection(FName("AttackR"), CombatMontage);
+		if (RSkillCoolDown >= RSkillCool) {
+			bIsRSkillCoolDown = true;
+			RSkillCoolDown = 0.f;
+			bAttacking = true;
+			UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+			if (AnimInstance && CombatMontage) {
+				AnimInstance->Montage_Play(CombatMontage, 1.35f);
+				AnimInstance->Montage_JumpToSection(FName("AttackR"), CombatMontage);
+			}
 		}
 	}
 }

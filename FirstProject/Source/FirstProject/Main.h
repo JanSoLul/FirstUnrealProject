@@ -66,9 +66,19 @@ public:
 	int32 Coins;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Skill")
-	float SkillCoolDown;
+	float QSkillCoolDown;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Player Stats")
-	float SkillCool;
+	float QSkillCool;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Skill")
+	float ESkillCoolDown;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Player Stats")
+	float ESkillCool;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Skill")
+	float RSkillCoolDown;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Player Stats")
+	float RSkillCool;
 
 	/** 일반 달리기 스피드 */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
@@ -110,7 +120,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Anims")
 	bool bAttacking;
 
-	bool bIsCoolDown;
+	bool bIsQSkillCoolDown;
+	bool bIsESkillCoolDown;
+	bool bIsRSkillCoolDown;
 
 protected:
 	// Called when the game starts or when spawned

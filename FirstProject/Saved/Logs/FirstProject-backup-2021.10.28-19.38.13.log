@@ -1,0 +1,2133 @@
+﻿Log file open, 10/29/21 04:37:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FirstProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.481384
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-17735300
+LogInit: Engine Version: 4.27.1-17735300+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-4690 CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 960
+LogInit: Compiled (64-bit): Oct  6 2021 14:42:51
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Epic Games/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.10.28-19.37.33:317][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.10.28-19.37.33:317][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.10.28-19.37.33:318][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.10.28-19.37.33:318][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.10.28-19.37.33:409][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.28-19.37.33:409][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.10.28-19.37.33:410][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.10.28-19.37.33:410][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.28-19.37.33:411][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.10.28-19.37.33:411][  0]LogHAL: Display: Platform has ~ 12 GB [12816355328 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.10.28-19.37.33:411][  0]LogInit: Going up to parent DeviceProfile []
+[2021.10.28-19.37.33:411][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.28-19.37.33:411][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Scalability.ini]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.10.28-19.37.33:412][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.10.28-19.37.33:413][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.10.28-19.37.33:413][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.10.28-19.37.33:413][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.10.28-19.37.33:413][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Engine.ini]
+[2021.10.28-19.37.33:413][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal Project/FirstProject/Saved/Config/Windows/Editor.ini]
+[2021.10.28-19.37.33:413][  0]LogInit: Computer: DESKTOP-G206ESI
+[2021.10.28-19.37.33:413][  0]LogInit: User: jiwoo
+[2021.10.28-19.37.33:413][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.10.28-19.37.33:413][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.10.28-19.37.33:413][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2021.10.28-19.37.33:413][  0]LogMemory: Platform Memory Stats for Windows
+[2021.10.28-19.37.33:413][  0]LogMemory: Process Physical Memory: 140.96 MB used, 140.96 MB peak
+[2021.10.28-19.37.33:413][  0]LogMemory: Process Virtual Memory: 117.23 MB used, 117.23 MB peak
+[2021.10.28-19.37.33:413][  0]LogMemory: Physical Memory: 8036.94 MB used,  4185.69 MB free, 12222.63 MB total
+[2021.10.28-19.37.33:413][  0]LogMemory: Virtual Memory: 134205640.00 MB used,  12088.13 MB free, 134217728.00 MB total
+[2021.10.28-19.37.33:427][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.10.28-19.37.33:707][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.10.28-19.37.33:708][  0]LogInit: Using OS detected language (ko-KR).
+[2021.10.28-19.37.33:708][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.10.28-19.37.33:722][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.10.28-19.37.33:941][  0]LogInit: Setting process to per monitor DPI aware
+[2021.10.28-19.37.33:992][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.10.28-19.37.34:022][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.10.28-19.37.34:022][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.10.28-19.37.34:486][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2021.10.28-19.37.34:494][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.28-19.37.34:494][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.10.28-19.37.34:494][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.10.28-19.37.34:494][  0]LogD3D11RHI: D3D11 adapters:
+[2021.10.28-19.37.34:645][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2021.10.28-19.37.34:645][  0]LogD3D11RHI:       2007/0/6111 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:       0/0/6111 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 960
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     VendorId    : 10de
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     DeviceId    : 1401
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     SubSysId    : 140110de
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     Revision    : 00a1
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     DedicatedVideoMemory : 2105147392 bytes
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     SharedSystemMemory : 6408177664 bytes
+[2021.10.28-19.37.34:649][  0]LogD3D11RHI:     AdapterLuid : 0 41036
+[2021.10.28-19.37.34:656][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.10.28-19.37.34:656][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2021.10.28-19.37.34:656][  0]LogWindows: EnumDisplayDevices:
+[2021.10.28-19.37.34:656][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2021.10.28-19.37.34:659][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2021.10.28-19.37.34:661][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2021.10.28-19.37.34:663][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2021.10.28-19.37.34:665][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:   Driver Version: 461.09 (internal:27.21.14.6109, unified:461.09)
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:      Driver Date: 12-31-2020
+[2021.10.28-19.37.34:665][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 960
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     VendorId    : 10de
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     DeviceId    : 1401
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     SubSysId    : 140110de
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     Revision    : 00a1
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     DedicatedVideoMemory : 2105147392 bytes
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     SharedSystemMemory : 6408177664 bytes
+[2021.10.28-19.37.34:665][  0]LogD3D11RHI:     AdapterLuid : 0 41036
+[2021.10.28-19.37.34:760][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.10.28-19.37.34:761][  0]LogD3D11RHI: Async texture creation enabled
+[2021.10.28-19.37.34:761][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.10.28-19.37.34:795][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.10.28-19.37.35:020][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.10.28-19.37.35:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.10.28-19.37.35:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.10.28-19.37.35:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.10.28-19.37.35:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.10.28-19.37.35:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.10.28-19.37.35:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.10.28-19.37.35:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.10.28-19.37.35:797][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.10.28-19.37.35:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.10.28-19.37.35:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.10.28-19.37.35:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.10.28-19.37.35:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.10.28-19.37.35:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.10.28-19.37.35:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.10.28-19.37.35:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.10.28-19.37.35:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.10.28-19.37.35:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.10.28-19.37.35:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.10.28-19.37.35:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.10.28-19.37.35:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.10.28-19.37.35:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.10.28-19.37.35:974][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.10.28-19.37.35:985][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.10.28-19.37.35:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.10.28-19.37.35:996][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.10.28-19.37.36:018][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.10.28-19.37.36:117][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2021.10.28-19.37.36:222][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.10.28-19.37.36:222][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../Unreal Project/FirstProject/Intermediate/Shaders/WorkingDirectory/7536/).
+[2021.10.28-19.37.36:223][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jiwoo/AppData/Local/Temp/UnrealShaderWorkingDir/4B8F0A4A40662CFE8D9EA994A48AC067/'.
+[2021.10.28-19.37.36:223][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.10.28-19.37.36:223][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.10.28-19.37.36:223][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.10.28-19.37.37:300][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.10.28-19.37.37:726][  0]LogDerivedDataCache: Loaded boot cache 0.42s 94MB C:/Users/jiwoo/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2021.10.28-19.37.37:726][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jiwoo/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2021.10.28-19.37.37:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Project/FirstProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.10.28-19.37.37:726][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.10.28-19.37.37:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Project/FirstProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.28-19.37.37:726][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.10.28-19.37.37:749][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.10.28-19.37.37:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.28-19.37.37:749][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.10.28-19.37.37:788][  0]LogDerivedDataCache: Speed tests for C:/Users/jiwoo/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.04 seconds
+[2021.10.28-19.37.37:788][  0]LogDerivedDataCache: Display: Performance to C:/Users/jiwoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.16ms. RandomReadSpeed=92.01MBs, RandomWriteSpeed=35.86MBs. Assigned SpeedClass 'Local'
+[2021.10.28-19.37.37:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jiwoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.10.28-19.37.37:796][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.10.28-19.37.37:796][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.10.28-19.37.37:858][  0]LogSlate: Using FreeType 2.10.0
+[2021.10.28-19.37.37:859][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.10.28-19.37.37:925][  0]LogAssetRegistry: FAssetRegistry took 0.0037 seconds to start up
+[2021.10.28-19.37.38:226][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.28-19.37.38:226][  0]LogInit: Active device profile: [00000174A7E06800][000001749A3E1300 49] Windows
+[2021.10.28-19.37.38:226][  0]LogInit: Profiles: [00000174A7E06800][000001749A3E1300 49] Windows, [00000174A7DC6B00][000001749A3E9480 49] WindowsNoEditor, [00000174A7E07000][000001749A3ED600 49] WindowsServer, [00000174A7DC5100][000001749A3F1780 49] WindowsClient, [00000174A7E05000][000001749A3F5900 49] IOS, [00000174A7DC6800][000001749A3F9A80 49] iPadAir, [00000174A7E05200][000001749A3FDC00 49] iPadAir2, [00000174A7D6E700][000001749A404340 49] IPadPro, [00000174A7D6E800][000001749A400380 49] iPadAir3, [00000174A7E04300][000001749A408500 49] iPadAir4, [00000174A7D6EA00][00000174A8986680 49] iPadMini2, [00000174A7E06900][00000174A898A800 49] iPadMini3, [00000174A7D6EF00][00000174A898E980 49] iPadMini4, [00000174A7E07400][00000174A8992B00 49] iPadMini5, [00000174A7DBE000][00000174A8996D40 49] iPhone6, [00000174A7DBE100][000001749A3E4D80 49] iPodTouch6, [00000174A7D6DE00][00000174A899EFC0 49] iPhone7, [00000174A7D6DF00][00000174A899B000 49] iPodTouch7, [00000174A7DBC400][00000174A89A7180 49] iPhone5S, [00000174A7D6E100][00000174A89AB300 49] iPhone6Plus, [00000174A7DBE800][00000174A89AF480 49] iPhone6S, [00000174A7D6ED00][00000174A89B3600 49] iPhone6SPlus, [00000174A7DBD300][00000174A89B7780 49] iPhone7Plus, [00000174A7D6E600][00000174A89BB900 49] iPhoneSE, [00000174A7DBE900][00000174A89BFA80 49] iPhone8, [00000174A7D6F100][00000174A89C3C00 49] iPhone8Plus, [00000174A7DBE700][00000174A89C6200 49] iPhoneX, [00000174A7D6DD00][00000174A89CA380 49] iPhoneXS, [00000174A7DBDD00][00000174A89CE500 49] iPhoneXSMax, [00000174A7D6E000][00000174A89D2680 49] iPhoneXR, [00000174A7DBD900][00000174A89D6800 49] iPhone11, [00000174A7D6F300][00000174A89DA980 49] iPhone11Pro, [00000174A7DBCF00][00000174A89DEB00 49] iPhone11ProMax, [00000174A7D6FE00][00000174A89E2C80 49] iPhoneSE2, [00000174A7DBF300][00000174A89A2DC0 49] iPhone12Mini, [00000174A7D6C500][00000174A89E6F00 49] iPhone12, [00000174A7DBC100][00000174A89EB040 49] iPhone12Pro, [00000174A7D6EB00][00000174A89EF180 49] iPhone12ProMax, [00000174A7DBC300][00000174A89F7300 49] iPadPro105, [00000174A7D6EC00][00000174A89FB480 49] iPadPro129, [00000174A7DBDE00][00000174A89FF600 49] iPadPro97, [00000174A7D6FC00][00000174A8A03780 49] iPadPro2_129, [00000174A7DBD000][00000174A8A07900 49] iPad5, [00000174A7D6D700][00000174A8A0BA80 49] iPad6, [00000174A7DBCE00][00000174A8A0FC00 49] iPad7, [00000174A7D6E200][00000174A8A12200 49] iPad8, [00000174A7DBED00][00000174A8A16380 49] iPadPro11, [00000174A7DC6C00][00000174A8A1A500 49] iPadPro2_11, [00000174A7E61600][00000174A8A1E680 49] iPadPro3_129, [00000174A7DC6500][00000174A8A22800 49] iPadPro4_129, [00000174A7E60900][00000174A8A26980 49] AppleTV, [00000174A7DC4A00][00000174A8A2AB00 49] AppleTV4K, [00000174A7E60D00][00000174A8A2EC80 49] TVOS, [00000174A7DC6900][00000174A8A32E00 49] Mac, [00000174A7E60C00][00000174A89F2F40 49] MacClient, [00000174A7DC7B00][00000174A8A37080 49] MacNoEditor, [00000174A7E61A00][00000174A8A3B1C0 49] MacServer, [00000174A7DBCC00][00000174A8A3F300 49] Linux, [00000174A7D6E900][00000174A8A47480 49] LinuxAArch64, [00000174A7DBD100][00000174A8A4B600 49] LinuxNoEditor, [00000174A7D6C900][00000174A8A4F780 49] LinuxAArch64NoEditor, [00000174A7DBF400][00000174A8A53900 49] LinuxClient, [00000174A7D6F200][00000174A8A57A80 49] LinuxAArch64Client, [00000174A7DBC700][00000174A8A5BC00 49] LinuxServer, [00000174A7D6F800][00000174A8A5E200 49] LinuxAArch64Server, [00000174A7DBD800][00000174A8A62380 49] Android, [00000174A7D6F700][00000174A8A66500 49] Android_Low, [00000174A7DBC600][00000174A8A6A680 49] Android_Mid, [00000174A7D6EE00][00000174A93A2800 49] Android_High, [00000174A7DBE400][00000174A93A6980 49] Android_Default, [00000174A7D6C300][00000174A93AAB00 49] Android_Adreno4xx, [00000174A7DBDC00][00000174A93AEC80 49] Android_Adreno5xx_Low, [00000174A7D6FB00][00000174A93B2E00 49] Android_Adreno5xx, [00000174A7DBFE00][00000174A93B6F80 49] Android_Adreno6xx, [00000174A7D6CE00][00000174A93BB100 49] Android_Adreno6xx_Vulkan, [00000174A7DBDA00][00000174A8A43240 49] Android_Mali_T6xx, [00000174A7D6CC00][00000174A93BF380 49] Android_Mali_T7xx, [00000174A7DBD500][00000174A93C34C0 49] Android_Mali_T8xx, [00000174A7D6F500][00000174A93CB640 49] Android_Mali_G71, [00000174A7DBFC00][00000174A93CF7C0 49] Android_Mali_G72, [00000174A7D6D600][00000174A93D3940 49] Android_Mali_G72_Vulkan, [00000174A7DBFB00][00000174A93D7AC0 49] Android_Mali_G76, [00000174A7E60A00][00000174A93DA0C0 49] Android_Mali_G76_Vulkan, [00000174A7DBF500][00000174A93DE240 49] Android_Mali_G77, [00000174A7E60100][00000174A93E23C0 49] Android_Mali_G77_Vulkan, [00000174A7DBF700][00000174A93E6540 49] Android_Mali_G78, [00000174A7D6D400][00000174A93EA6C0 49] Android_Mali_G78_Vulkan, [00000174A7DBDB00][00000174A93EE840 49] Android_Mali_G710, [00000174A7D6D000][00000174A93F29C0 49] Android_Mali_G710_Vulkan, [00000174A7DBEB00][00000174A93F6B40 49] Android_Vulkan_SM5, [00000174A7D6E300][00000174A93FACC0 49] Android_PowerVR_G6xxx, [00000174A7DBC500][00000174A93FEE40 49] Android_PowerVR_GT7xxx, [00000174A7D6E400][00000174A9402FC0 49] Android_PowerVR_GE8xxx, [00000174A7DBCB00][00000174A9407140 49] Android_PowerVR_GM9xxx, [00000174A7D6DB00][00000174A940B2C0 49] Android_PowerVR_GM9xxx_Vulkan, [00000174A7DBFA00][00000174A93C7400 49] Android_TegraK1, [00000174A7D6D200][00000174A940F540 49] Android_Unknown_Vulkan, [00000174A7DBCA00][00000174A9413680 49] Lumin, [00000174A7D6C800][00000174A94177C0 49] Lumin_Desktop, [00000174A7DC4900][00000174A941F940 49] HoloLens, 
+[2021.10.28-19.37.38:468][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.10.28-19.37.38:468][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.10.28-19.37.38:468][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.10.28-19.37.38:468][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.10.28-19.37.38:469][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.10.28-19.37.38:508][  0]LogNetVersion: FirstProject 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 1409045027)
+[2021.10.28-19.37.39:398][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2021.10.28-19.37.39:497][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.10.28-19.37.39:505][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2021.10.28-19.37.39:505][  0]LogUObjectAllocator: 4301856 out of 0 bytes used by permanent object pool.
+[2021.10.28-19.37.39:505][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.10.28-19.37.40:221][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 05D416334441252BA56FCBBA6691DD7E | Instance: BE617D3E4E38E2587FB66582FCE0EE5E (DESKTOP-G206ESI-7536).
+[2021.10.28-19.37.40:298][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.10.28-19.37.40:298][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.10.28-19.37.40:298][  0]LogPython: Using Python 3.7.7
+[2021.10.28-19.37.41:206][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.10.28-19.37.41:217][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.10.28-19.37.41:528][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.28-19.37.41:528][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.28-19.37.41:540][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.28-19.37.41:562][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.28-19.37.41:647][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.28-19.37.41:668][  0]LogUProjectInfo: Found projects:
+[2021.10.28-19.37.42:141][  0]LogOpenImageDenoise: OIDN starting up
+[2021.10.28-19.37.42:279][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.10.28-19.37.42:339][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.28-19.37.42:339][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.28-19.37.42:764][  0]LogCollectionManager: Loaded 0 collections in 0.001489 seconds
+[2021.10.28-19.37.42:819][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Project/FirstProject/Saved/Collections/' took 0.00s
+[2021.10.28-19.37.42:819][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Project/FirstProject/Content/Developers/jiwoo/Collections/' took 0.00s
+[2021.10.28-19.37.42:819][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Project/FirstProject/Content/Collections/' took 0.00s
+[2021.10.28-19.37.42:819][  0]LogOcInput: OculusInput pre-init called
+[2021.10.28-19.37.43:251][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.10.28-19.37.43:251][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.10.28-19.37.43:413][  0]LogEngine: Initializing Engine...
+[2021.10.28-19.37.43:418][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2021.10.28-19.37.43:419][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.28-19.37.43:419][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.10.28-19.37.43:420][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.10.28-19.37.43:663][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.10.28-19.37.43:682][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.10.28-19.37.43:682][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.10.28-19.37.43:693][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2021.10.28-19.37.43:694][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2021.10.28-19.37.43:695][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.10.28-19.37.43:695][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.10.28-19.37.43:695][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-19.37.43:695][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-19.37.43:695][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-19.37.43:695][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-19.37.43:695][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-19.37.43:695][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-19.37.43:695][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-19.37.43:695][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-19.37.43:696][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.28-19.37.43:696][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.28-19.37.43:696][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.28-19.37.43:696][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-19.37.43:793][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-19.37.43:793][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-19.37.43:909][  0]LogAudioMixer: Display: Using Audio Device 2D FHD LG TV(NVIDIA High Definition Audio)
+[2021.10.28-19.37.43:912][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-19.37.43:918][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-19.37.43:918][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-19.37.43:918][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-19.37.43:918][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-19.37.43:919][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.28-19.37.43:920][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-19.37.43:920][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-19.37.43:920][  0]LogInit: FAudioDevice initialized.
+[2021.10.28-19.37.43:920][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.10.28-19.37.43:920][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.10.28-19.37.44:093][  0]LogDerivedDataCache: Saved boot cache 0.17s 94MB C:/Users/jiwoo/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2021.10.28-19.37.44:097][  0]LogInit: Texture streaming: Enabled
+[2021.10.28-19.37.44:135][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.1-17735300+++UE4+Release-4.27
+[2021.10.28-19.37.44:159][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.10.28-19.37.44:159][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={AE446ED9-41E9-123B-B691-D886B0142BDB}
+[2021.10.28-19.37.44:159][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.10.28-19.37.44:180][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.10.28-19.37.44:236][  0]LogInit: Transaction tracking system initialized
+[2021.10.28-19.37.44:330][  0]BlueprintLog: New page: 에디터 로드
+[2021.10.28-19.37.44:524][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.10.28-19.37.44:602][  0]TimingProfiler: Initialize
+[2021.10.28-19.37.44:602][  0]TimingProfiler: OnSessionChanged
+[2021.10.28-19.37.44:602][  0]LoadingProfiler: Initialize
+[2021.10.28-19.37.44:602][  0]LoadingProfiler: OnSessionChanged
+[2021.10.28-19.37.44:602][  0]NetworkingProfiler: Initialize
+[2021.10.28-19.37.44:602][  0]NetworkingProfiler: OnSessionChanged
+[2021.10.28-19.37.44:602][  0]MemoryProfiler: Initialize
+[2021.10.28-19.37.44:602][  0]MemoryProfiler: OnSessionChanged
+[2021.10.28-19.37.44:992][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.10.28-19.37.44:992][  0]LogCook: Display: Mobile HDR setting 1
+[2021.10.28-19.37.45:469][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Project/FirstProject/Content/' took 0.07s
+[2021.10.28-19.37.45:842][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.10.28-19.37.45:842][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.10.28-19.37.45:861][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.10.28-19.37.45:872][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.28-19.37.45:873][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.355
+[2021.10.28-19.37.45:873][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Project/FirstProject/Content/Maps/SunTemple.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.28-19.37.45:874][  0]LightingResults: New page: 라이팅 빌드
+[2021.10.28-19.37.45:877][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.10.28-19.37.45:877][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.28-19.37.45:877][  0]MapCheck: New page: 맵 체크
+[2021.10.28-19.37.45:877][  0]LightingResults: New page: 라이팅 빌드
+[2021.10.28-19.37.45:890][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.28-19.37.45:893][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.10.28-19.37.46:886][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Game/Assets/Textures/Sky54a2048.Sky54a2048', its maximum texture size has been explicitly set to 512.
+[2021.10.28-19.37.47:766][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'SunTemple'.
+[2021.10.28-19.37.47:767][  0]LogAIModule: Creating AISystem for world SunTemple
+[2021.10.28-19.37.47:815][  0]LogTemp: Warning: 0.000000
+[2021.10.28-19.37.47:829][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2021.10.28-19.37.47:877][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.10.28-19.37.47:882][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.28-19.37.47:882][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.217ms.
+[2021.10.28-19.37.47:882][  0]LogFileHelpers: Loading map 'SunTemple' took 2.010
+[2021.10.28-19.37.47:888][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.371
+[2021.10.28-19.37.48:050][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-19.37.48:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-19.37.48:067][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-19.37.48:075][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.28-19.37.48:100][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0107 seconds. Added 3836 classes and 930 folders.
+[2021.10.28-19.37.48:104][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.28-19.37.48:108][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.28-19.37.48:108][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:108][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.28-19.37.48:108][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:108][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2021.10.28-19.37.48:108][  0]LogPakFile: OnPakFileMounted2Time == 0.000063
+[2021.10.28-19.37.48:110][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.10.28-19.37.48:110][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:110][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.10.28-19.37.48:110][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:110][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2021.10.28-19.37.48:110][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2021.10.28-19.37.48:112][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.10.28-19.37.48:112][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:112][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.10.28-19.37.48:112][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:112][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2021.10.28-19.37.48:112][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2021.10.28-19.37.48:114][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-19.37.48:114][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:114][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.28-19.37.48:114][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:114][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack)
+[2021.10.28-19.37.48:114][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.10.28-19.37.48:115][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.10.28-19.37.48:115][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:115][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.10.28-19.37.48:115][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:115][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2021.10.28-19.37.48:115][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2021.10.28-19.37.48:118][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.10.28-19.37.48:118][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:118][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.10.28-19.37.48:118][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:118][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2021.10.28-19.37.48:118][  0]LogPakFile: OnPakFileMounted2Time == 0.000106
+[2021.10.28-19.37.48:120][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.10.28-19.37.48:120][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:120][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.10.28-19.37.48:120][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:120][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2021.10.28-19.37.48:120][  0]LogPakFile: OnPakFileMounted2Time == 0.000049
+[2021.10.28-19.37.48:122][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.10.28-19.37.48:122][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:122][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.10.28-19.37.48:122][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:122][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2021.10.28-19.37.48:122][  0]LogPakFile: OnPakFileMounted2Time == 0.000052
+[2021.10.28-19.37.48:124][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.28-19.37.48:124][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:124][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.28-19.37.48:124][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:124][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2021.10.28-19.37.48:124][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.10.28-19.37.48:130][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.10.28-19.37.48:130][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:130][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.10.28-19.37.48:130][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:130][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2021.10.28-19.37.48:130][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.10.28-19.37.48:132][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.10.28-19.37.48:132][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:132][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.10.28-19.37.48:132][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:132][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2021.10.28-19.37.48:132][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2021.10.28-19.37.48:134][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.28-19.37.48:134][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:134][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.28-19.37.48:134][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:134][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2021.10.28-19.37.48:134][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2021.10.28-19.37.48:136][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-19.37.48:136][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:136][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.28-19.37.48:136][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:136][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2021.10.28-19.37.48:136][  0]LogPakFile: OnPakFileMounted2Time == 0.000127
+[2021.10.28-19.37.48:138][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.28-19.37.48:138][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:138][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.28-19.37.48:138][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:138][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2021.10.28-19.37.48:138][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2021.10.28-19.37.48:139][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.10.28-19.37.48:139][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:139][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.10.28-19.37.48:139][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:139][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2021.10.28-19.37.48:139][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.10.28-19.37.48:141][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.28-19.37.48:141][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:141][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.28-19.37.48:141][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:141][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2021.10.28-19.37.48:141][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.10.28-19.37.48:143][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.10.28-19.37.48:143][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:143][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.10.28-19.37.48:143][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:143][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2021.10.28-19.37.48:143][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.10.28-19.37.48:144][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.28-19.37.48:144][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:144][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.28-19.37.48:144][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:144][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2021.10.28-19.37.48:144][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2021.10.28-19.37.48:146][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-19.37.48:146][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:146][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.28-19.37.48:146][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:146][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2021.10.28-19.37.48:146][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2021.10.28-19.37.48:147][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-19.37.48:147][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:147][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.28-19.37.48:147][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:147][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2021.10.28-19.37.48:147][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2021.10.28-19.37.48:149][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.28-19.37.48:149][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:149][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.28-19.37.48:149][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:149][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2021.10.28-19.37.48:149][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2021.10.28-19.37.48:151][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.28-19.37.48:151][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:151][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.28-19.37.48:151][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:151][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2021.10.28-19.37.48:151][  0]LogPakFile: OnPakFileMounted2Time == 0.000045
+[2021.10.28-19.37.48:153][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.10.28-19.37.48:153][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:153][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.10.28-19.37.48:153][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:153][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2021.10.28-19.37.48:153][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2021.10.28-19.37.48:155][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.28-19.37.48:155][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:155][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.28-19.37.48:155][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:155][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2021.10.28-19.37.48:155][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2021.10.28-19.37.48:156][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.28-19.37.48:156][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:156][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.28-19.37.48:157][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:157][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2021.10.28-19.37.48:157][  0]LogPakFile: OnPakFileMounted2Time == 0.000050
+[2021.10.28-19.37.48:158][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.10.28-19.37.48:158][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.28-19.37.48:158][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.10.28-19.37.48:158][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'E:/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2021.10.28-19.37.48:158][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:E:/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2021.10.28-19.37.48:158][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.10.28-19.37.48:312][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.28-19.37.48:317][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.10.28-19.37.48:568][  0]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.10.28-19.37.48:570][  0]LogSlate: Took 0.001280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.10.28-19.37.48:589][  0]LogSlate: Took 0.018328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.10.28-19.37.48:608][  0]LogSlate: Took 0.018622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.10.28-19.37.48:608][  0]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.10.28-19.37.48:613][  0]LogSlate: Took 0.001023 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.10.28-19.37.48:674][  0]LogSlate: Took 0.016701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2021.10.28-19.37.48:834][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.10.28-19.37.49:012][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.28-19.37.49:012][  0]LogLoad: (Engine Initialization) Total time: 18.49 seconds
+[2021.10.28-19.37.49:012][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.10.28-19.37.49:083][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.10.28-19.37.49:144][  1]LogAssetRegistry: Asset discovery search completed in 11.2203 seconds
+[2021.10.28-19.37.49:156][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.10.28-19.37.50:452][  5]LogSlate: Took 0.001554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.28-19.38.00:676][ 77]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.28-19.38.00:689][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.28-19.38.00:690][ 77]PIE: New page: PIE 세션: SunTemple (2021. 10. 29. 오후 1:38:00)
+[2021.10.28-19.38.00:691][ 77]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.10.28-19.38.00:693][ 77]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.10.28-19.38.00:693][ 77]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SunTemple
+[2021.10.28-19.38.00:751][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057844s)
+[2021.10.28-19.38.00:752][ 77]LogAIModule: Creating AISystem for world SunTemple
+[2021.10.28-19.38.00:752][ 77]LogPlayLevel: PIE: World Init took: (0.001552s)
+[2021.10.28-19.38.00:752][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SunTemple.SunTemple to /Game/Maps/UEDPIE_0_SunTemple.SunTemple (0.059621s)
+[2021.10.28-19.38.00:762][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.10.28-19.38.00:767][ 77]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.10.28-19.38.00:768][ 77]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.28-19.38.00:768][ 77]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.28-19.38.00:768][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.28-19.38.00:768][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.28-19.38.00:768][ 77]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.28-19.38.00:768][ 77]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.28-19.38.00:768][ 77]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.28-19.38.00:768][ 77]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.28-19.38.00:768][ 77]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.10.28-19.38.00:768][ 77]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.10.28-19.38.00:768][ 77]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.28-19.38.00:768][ 77]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.28-19.38.00:817][ 77]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.28-19.38.00:817][ 77]LogAudioMixer: Display: 1: FrontRight
+[2021.10.28-19.38.00:867][ 77]LogAudioMixer: Display: Using Audio Device 2D FHD LG TV(NVIDIA High Definition Audio)
+[2021.10.28-19.38.00:867][ 77]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.28-19.38.00:867][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.28-19.38.00:867][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.28-19.38.00:867][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.28-19.38.00:867][ 77]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.28-19.38.00:867][ 77]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.28-19.38.00:869][ 77]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.28-19.38.00:869][ 77]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.28-19.38.00:869][ 77]LogInit: FAudioDevice initialized.
+[2021.10.28-19.38.00:869][ 77]LogAudio: Display: Audio Device (ID: 2) registered with world 'SunTemple'.
+[2021.10.28-19.38.00:880][ 77]LogLoad: Game class is 'CritterGameMode_BP_C'
+[2021.10.28-19.38.00:898][ 77]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.00:899][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SunTemple.SunTemple up for play (max tick rate 0) at 2021.10.29-04.38.00
+[2021.10.28-19.38.00:900][ 77]LogWorld: Bringing up level for play took: 0.019807
+[2021.10.28-19.38.00:901][ 77]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.10.28-19.38.00:907][ 77]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.10.28-19.38.00:910][ 77]LogTemp: Warning: test
+[2021.10.28-19.38.00:910][ 77]LogTemp: Warning: test
+[2021.10.28-19.38.00:912][ 77]PIE: 서버가 로그인했습니다.
+[2021.10.28-19.38.00:913][ 77]PIE: 에디터에서 플레이 총 시작 시간 0.232초입니다.
+[2021.10.28-19.38.00:916][ 77]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:001][ 78]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:029][ 79]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:041][ 80]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:050][ 81]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:058][ 82]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:066][ 83]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:075][ 84]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:083][ 85]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:092][ 86]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:103][ 87]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:111][ 88]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:120][ 89]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:128][ 90]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:137][ 91]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:145][ 92]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:153][ 93]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:162][ 94]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:170][ 95]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:189][ 96]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:196][ 97]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:207][ 98]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:215][ 99]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:224][100]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:232][101]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:241][102]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:250][103]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:258][104]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:268][105]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:276][106]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:285][107]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:293][108]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:301][109]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:309][110]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:318][111]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:327][112]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:335][113]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:344][114]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:352][115]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:360][116]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:369][117]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:377][118]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:386][119]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:394][120]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:403][121]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:411][122]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:420][123]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:429][124]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:437][125]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:450][126]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:459][127]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:470][128]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:478][129]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:487][130]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:495][131]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:504][132]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:512][133]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:521][134]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:529][135]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:537][136]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:546][137]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:554][138]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:562][139]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:571][140]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:579][141]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:588][142]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:596][143]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:605][144]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:614][145]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:622][146]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:630][147]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:638][148]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:646][149]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:655][150]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:663][151]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:672][152]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:679][153]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:688][154]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:696][155]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:704][156]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:713][157]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:721][158]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:729][159]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:738][160]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:746][161]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:753][162]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:762][163]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:770][164]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:778][165]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:787][166]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:795][167]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:804][168]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:812][169]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:821][170]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:833][171]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:840][172]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:848][173]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:857][174]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:865][175]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:873][176]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:882][177]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:890][178]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:898][179]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:907][180]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:915][181]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:923][182]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:931][183]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:940][184]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:948][185]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:956][186]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:965][187]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:973][188]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:982][189]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:990][190]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.01:998][191]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:007][192]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:016][193]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:024][194]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:032][195]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:041][196]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:049][197]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:057][198]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:066][199]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:073][200]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:081][201]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:090][202]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:098][203]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:106][204]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:115][205]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:123][206]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:131][207]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:140][208]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:148][209]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:156][210]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:165][211]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:173][212]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:189][213]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:195][214]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:203][215]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:212][216]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:220][217]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:229][218]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:237][219]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:245][220]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:254][221]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:262][222]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:270][223]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:279][224]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:287][225]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:295][226]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:304][227]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:312][228]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:320][229]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:329][230]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:337][231]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:346][232]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:354][233]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:362][234]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:371][235]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:379][236]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:387][237]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:395][238]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:404][239]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:412][240]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:420][241]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:429][242]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:437][243]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:445][244]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:454][245]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:463][246]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:472][247]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:480][248]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:488][249]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:497][250]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:505][251]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:513][252]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:522][253]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:530][254]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:538][255]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:547][256]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:555][257]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:563][258]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:572][259]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:580][260]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:589][261]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:597][262]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:607][263]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:614][264]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:622][265]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:630][266]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:639][267]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:647][268]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:656][269]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:664][270]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:672][271]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:681][272]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:689][273]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:698][274]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:706][275]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:713][276]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:722][277]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:730][278]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:739][279]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:747][280]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:755][281]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:764][282]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:772][283]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:780][284]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:789][285]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:797][286]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:805][287]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:814][288]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:822][289]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:830][290]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:839][291]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:847][292]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:855][293]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:864][294]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:872][295]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:880][296]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:889][297]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:897][298]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue was zero and has changed. Consider manually Re-saving the asset
+[2021.10.28-19.38.02:897][298]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:907][299]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:916][300]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:924][301]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:933][302]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:941][303]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:949][304]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:958][305]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:966][306]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:974][307]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:983][308]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:991][309]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.02:999][310]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:007][311]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:016][312]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:024][313]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:032][314]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:041][315]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:049][316]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:057][317]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:066][318]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:074][319]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:083][320]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:091][321]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:100][322]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:107][323]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:116][324]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:124][325]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:133][326]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:141][327]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:149][328]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:158][329]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:166][330]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:174][331]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:190][332]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:195][333]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:204][334]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:213][335]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.03:221][336]LogTemp: Warning: 17.098427
+[2021.10.28-19.38.03:229][337]LogTemp: Warning: 34.165588
+[2021.10.28-19.38.03:238][338]LogTemp: Warning: 51.233215
+[2021.10.28-19.38.03:246][339]LogTemp: Warning: 68.300941
+[2021.10.28-19.38.03:255][340]LogTemp: Warning: 85.366943
+[2021.10.28-19.38.03:263][341]LogTemp: Warning: 102.434601
+[2021.10.28-19.38.03:272][342]LogTemp: Warning: 119.500900
+[2021.10.28-19.38.03:280][343]LogTemp: Warning: 136.569489
+[2021.10.28-19.38.03:288][344]LogTemp: Warning: 153.924515
+[2021.10.28-19.38.03:297][345]LogTemp: Warning: 170.990189
+[2021.10.28-19.38.03:305][346]LogTemp: Warning: 188.056976
+[2021.10.28-19.38.03:313][347]LogTemp: Warning: 205.128098
+[2021.10.28-19.38.03:322][348]LogTemp: Warning: 222.389877
+[2021.10.28-19.38.03:331][349]LogTemp: Warning: 239.462097
+[2021.10.28-19.38.03:339][350]LogTemp: Warning: 256.886993
+[2021.10.28-19.38.03:347][351]LogTemp: Warning: 273.966034
+[2021.10.28-19.38.03:356][352]LogTemp: Warning: 291.032013
+[2021.10.28-19.38.03:364][353]LogTemp: Warning: 300.000732
+[2021.10.28-19.38.03:372][354]LogTemp: Warning: 299.999908
+[2021.10.28-19.38.03:381][355]LogTemp: Warning: 299.998932
+[2021.10.28-19.38.03:390][356]LogTemp: Warning: 300.000854
+[2021.10.28-19.38.03:398][357]LogTemp: Warning: 299.999908
+[2021.10.28-19.38.03:406][358]LogTemp: Warning: 300.000702
+[2021.10.28-19.38.03:414][359]LogTemp: Warning: 299.999908
+[2021.10.28-19.38.03:422][360]LogTemp: Warning: 300.000427
+[2021.10.28-19.38.03:432][361]LogTemp: Warning: 299.998932
+[2021.10.28-19.38.03:439][362]LogTemp: Warning: 299.999084
+[2021.10.28-19.38.03:447][363]LogTemp: Warning: 300.000397
+[2021.10.28-19.38.03:456][364]LogTemp: Warning: 300.000519
+[2021.10.28-19.38.03:464][365]LogTemp: Warning: 300.000336
+[2021.10.28-19.38.03:472][366]LogTemp: Warning: 299.999390
+[2021.10.28-19.38.03:481][367]LogTemp: Warning: 299.999542
+[2021.10.28-19.38.03:489][368]LogTemp: Warning: 299.999542
+[2021.10.28-19.38.03:497][369]LogTemp: Warning: 299.999542
+[2021.10.28-19.38.03:505][370]LogTemp: Warning: 300.000092
+[2021.10.28-19.38.03:513][371]LogTemp: Warning: 300.000519
+[2021.10.28-19.38.03:524][372]LogTemp: Warning: 299.999908
+[2021.10.28-19.38.03:531][373]LogTemp: Warning: 299.999451
+[2021.10.28-19.38.03:540][374]LogTemp: Warning: 299.999725
+[2021.10.28-19.38.03:549][375]LogTemp: Warning: 300.000824
+[2021.10.28-19.38.03:556][376]LogTemp: Warning: 300.000275
+[2021.10.28-19.38.03:565][377]LogTemp: Warning: 299.999542
+[2021.10.28-19.38.03:573][378]LogTemp: Warning: 299.998779
+[2021.10.28-19.38.03:582][379]LogTemp: Warning: 300.000610
+[2021.10.28-19.38.03:590][380]LogTemp: Warning: 299.999908
+[2021.10.28-19.38.03:598][381]LogTemp: Warning: 299.999542
+[2021.10.28-19.38.03:607][382]LogTemp: Warning: 299.998962
+[2021.10.28-19.38.03:615][383]LogTemp: Warning: 300.000641
+[2021.10.28-19.38.03:623][384]LogTemp: Warning: 299.998840
+[2021.10.28-19.38.03:631][385]LogTemp: Warning: 300.000397
+[2021.10.28-19.38.03:640][386]LogTemp: Warning: 300.000519
+[2021.10.28-19.38.03:648][387]LogTemp: Warning: 300.000397
+[2021.10.28-19.38.03:657][388]LogTemp: Warning: 299.999695
+[2021.10.28-19.38.03:665][389]LogTemp: Warning: 299.998962
+[2021.10.28-19.38.03:673][390]LogTemp: Warning: 299.998840
+[2021.10.28-19.38.03:681][391]LogTemp: Warning: 299.999664
+[2021.10.28-19.38.03:690][392]LogTemp: Warning: 299.999573
+[2021.10.28-19.38.03:698][393]LogTemp: Warning: 299.998871
+[2021.10.28-19.38.03:707][394]LogTemp: Warning: 299.999390
+[2021.10.28-19.38.03:714][395]LogTemp: Warning: 298.874268
+[2021.10.28-19.38.03:723][396]LogTemp: Warning: 299.060547
+[2021.10.28-19.38.03:731][397]LogTemp: Warning: 299.999054
+[2021.10.28-19.38.03:739][398]LogTemp: Warning: 300.000610
+[2021.10.28-19.38.03:748][399]LogTemp: Warning: 300.000092
+[2021.10.28-19.38.03:756][400]LogTemp: Warning: 299.999115
+[2021.10.28-19.38.03:764][401]LogTemp: Warning: 300.000061
+[2021.10.28-19.38.03:773][402]LogTemp: Warning: 300.000031
+[2021.10.28-19.38.03:781][403]LogTemp: Warning: 299.999969
+[2021.10.28-19.38.03:789][404]LogTemp: Warning: 300.000092
+[2021.10.28-19.38.03:798][405]LogTemp: Warning: 299.998962
+[2021.10.28-19.38.03:806][406]LogTemp: Warning: 300.000000
+[2021.10.28-19.38.03:814][407]LogTemp: Warning: 299.999908
+[2021.10.28-19.38.03:823][408]LogTemp: Warning: 300.000916
+[2021.10.28-19.38.03:831][409]LogTemp: Warning: 299.999023
+[2021.10.28-19.38.03:839][410]LogTemp: Warning: 299.999908
+[2021.10.28-19.38.03:848][411]LogTemp: Warning: 299.999115
+[2021.10.28-19.38.03:856][412]LogTemp: Warning: 299.998993
+[2021.10.28-19.38.03:865][413]LogTemp: Warning: 299.999847
+[2021.10.28-19.38.03:873][414]LogTemp: Warning: 300.000092
+[2021.10.28-19.38.03:881][415]LogTemp: Warning: 300.001129
+[2021.10.28-19.38.03:890][416]LogTemp: Warning: 299.999847
+[2021.10.28-19.38.03:898][417]LogTemp: Warning: 300.001129
+[2021.10.28-19.38.03:906][418]LogTemp: Warning: 300.000092
+[2021.10.28-19.38.03:915][419]LogTemp: Warning: 300.000977
+[2021.10.28-19.38.03:923][420]LogTemp: Warning: 299.999847
+[2021.10.28-19.38.03:931][421]LogTemp: Warning: 299.999237
+[2021.10.28-19.38.03:940][422]LogTemp: Warning: 299.999115
+[2021.10.28-19.38.03:948][423]LogTemp: Warning: 299.999115
+[2021.10.28-19.38.03:956][424]LogTemp: Warning: 300.000000
+[2021.10.28-19.38.03:964][425]LogTemp: Warning: 299.999847
+[2021.10.28-19.38.03:973][426]LogTemp: Warning: 300.000092
+[2021.10.28-19.38.03:981][427]LogTemp: Warning: 300.001129
+[2021.10.28-19.38.03:990][428]LogTemp: Warning: 299.999725
+[2021.10.28-19.38.03:998][429]LogTemp: Warning: 299.999725
+[2021.10.28-19.38.04:006][430]LogTemp: Warning: 299.999390
+[2021.10.28-19.38.04:015][431]LogTemp: Warning: 300.001282
+[2021.10.28-19.38.04:023][432]LogTemp: Warning: 299.999390
+[2021.10.28-19.38.04:031][433]LogTemp: Warning: 299.999725
+[2021.10.28-19.38.04:040][434]LogTemp: Warning: 300.001129
+[2021.10.28-19.38.04:048][435]LogTemp: Warning: 300.000610
+[2021.10.28-19.38.04:056][436]LogTemp: Warning: 299.999847
+[2021.10.28-19.38.04:065][437]LogTemp: Warning: 299.999725
+[2021.10.28-19.38.04:076][438]LogTemp: Warning: 299.999786
+[2021.10.28-19.38.04:084][439]LogTemp: Warning: 300.000610
+[2021.10.28-19.38.04:092][440]LogTemp: Warning: 299.999237
+[2021.10.28-19.38.04:100][441]LogTemp: Warning: 299.999725
+[2021.10.28-19.38.04:109][442]LogTemp: Warning: 299.999390
+[2021.10.28-19.38.04:117][443]LogTemp: Warning: 299.999115
+[2021.10.28-19.38.04:125][444]LogTemp: Warning: 300.001129
+[2021.10.28-19.38.04:133][445]LogTemp: Warning: 300.001129
+[2021.10.28-19.38.04:142][446]LogTemp: Warning: 299.999115
+[2021.10.28-19.38.04:150][447]LogTemp: Warning: 299.999115
+[2021.10.28-19.38.04:158][448]LogTemp: Warning: 300.000061
+[2021.10.28-19.38.04:167][449]LogTemp: Warning: 299.999725
+[2021.10.28-19.38.04:175][450]LogTemp: Warning: 299.999725
+[2021.10.28-19.38.04:191][451]LogTemp: Warning: 300.000000
+[2021.10.28-19.38.04:196][452]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:205][453]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:213][454]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:221][455]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:230][456]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:238][457]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:246][458]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:255][459]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:263][460]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:271][461]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:280][462]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:288][463]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:296][464]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:305][465]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:313][466]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:322][467]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:331][468]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:338][469]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:346][470]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:355][471]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:363][472]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:371][473]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:380][474]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:388][475]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:396][476]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:405][477]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:413][478]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:421][479]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:430][480]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:438][481]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:446][482]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:455][483]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:464][484]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:472][485]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:480][486]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:489][487]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:497][488]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:505][489]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:514][490]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:522][491]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:530][492]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:539][493]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:547][494]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:555][495]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:564][496]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:572][497]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:580][498]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:589][499]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:597][500]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:605][501]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:614][502]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:622][503]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:630][504]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:639][505]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:647][506]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:655][507]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:664][508]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:672][509]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:680][510]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:689][511]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:697][512]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:705][513]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:714][514]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:722][515]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:730][516]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:739][517]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:747][518]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:755][519]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:764][520]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:772][521]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:780][522]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:789][523]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:797][524]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:805][525]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:814][526]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:822][527]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:830][528]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:839][529]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:847][530]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:856][531]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:864][532]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:872][533]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:881][534]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:889][535]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:897][536]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:906][537]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:914][538]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:922][539]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:931][540]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:939][541]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:947][542]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:956][543]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:963][544]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:971][545]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:980][546]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:988][547]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.04:996][548]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:005][549]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:013][550]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:021][551]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:030][552]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:038][553]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:046][554]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:055][555]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:063][556]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:071][557]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:080][558]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:088][559]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:096][560]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:105][561]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:113][562]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:121][563]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:130][564]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:138][565]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:146][566]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:155][567]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:163][568]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:171][569]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:180][570]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:196][571]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:201][572]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:210][573]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:218][574]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:226][575]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:235][576]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:243][577]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:251][578]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:260][579]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:268][580]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:277][581]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:286][582]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:294][583]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:303][584]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:312][585]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:321][586]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:329][587]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:339][588]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:347][589]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:355][590]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:363][591]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:372][592]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:380][593]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:388][594]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:397][595]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:405][596]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:414][597]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:424][598]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:433][599]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:443][600]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:453][601]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:461][602]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:469][603]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:477][604]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:486][605]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:494][606]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:503][607]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:511][608]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:519][609]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:527][610]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:536][611]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:544][612]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:553][613]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:561][614]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:569][615]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:577][616]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:586][617]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:594][618]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:603][619]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:611][620]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:620][621]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:628][622]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:636][623]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:645][624]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:653][625]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:661][626]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:670][627]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:678][628]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:686][629]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:695][630]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:703][631]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:711][632]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:720][633]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:728][634]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:736][635]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:745][636]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:753][637]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:761][638]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:770][639]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:778][640]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:786][641]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:795][642]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:803][643]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:811][644]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:820][645]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:828][646]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:836][647]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:845][648]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:853][649]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:861][650]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:870][651]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:878][652]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:887][653]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:896][654]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:904][655]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:912][656]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:920][657]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:928][658]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:937][659]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:945][660]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:954][661]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:962][662]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:970][663]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:978][664]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:987][665]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.05:996][666]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:004][667]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:012][668]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:021][669]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:029][670]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:038][671]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:046][672]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:054][673]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:062][674]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:070][675]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:079][676]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:087][677]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:095][678]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:103][679]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:112][680]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:120][681]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:129][682]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:137][683]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:146][684]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:154][685]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:162][686]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:170][687]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:179][688]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:187][689]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:202][690]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:208][691]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:216][692]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:224][693]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:233][694]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:241][695]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:249][696]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:258][697]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:266][698]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:274][699]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:283][700]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:291][701]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:299][702]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:308][703]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:316][704]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:324][705]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:333][706]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:341][707]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:349][708]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:358][709]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:366][710]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:374][711]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:383][712]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:391][713]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:399][714]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:408][715]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:416][716]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:424][717]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:433][718]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:441][719]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:450][720]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:458][721]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:466][722]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:474][723]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:483][724]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:491][725]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:499][726]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:508][727]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:516][728]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:524][729]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:533][730]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:541][731]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:549][732]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:557][733]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:566][734]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:574][735]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:582][736]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:591][737]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:599][738]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:607][739]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:616][740]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:624][741]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:632][742]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:641][743]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:649][744]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:657][745]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:666][746]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:674][747]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:682][748]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:691][749]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:699][750]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:707][751]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:716][752]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:724][753]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:732][754]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:741][755]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:749][756]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:757][757]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:766][758]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:774][759]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:782][760]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:791][761]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:799][762]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:807][763]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:816][764]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:824][765]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:832][766]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:841][767]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:849][768]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:857][769]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:866][770]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:874][771]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:882][772]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:891][773]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:899][774]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:907][775]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:916][776]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:924][777]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:932][778]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:941][779]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:949][780]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:957][781]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:966][782]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:974][783]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:982][784]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:991][785]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.06:999][786]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:008][787]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:016][788]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:024][789]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:032][790]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:041][791]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:049][792]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:058][793]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:066][794]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:074][795]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:083][796]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:091][797]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:099][798]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:108][799]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:116][800]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:124][801]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:133][802]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:141][803]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:149][804]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:158][805]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:166][806]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:174][807]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:183][808]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:191][809]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:206][810]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:212][811]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:220][812]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:229][813]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:237][814]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:245][815]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:253][816]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:262][817]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:270][818]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:279][819]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:287][820]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:295][821]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:304][822]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:312][823]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:320][824]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.07:329][825]LogTemp: Warning: 17.066900
+[2021.10.28-19.38.07:337][826]LogTemp: Warning: 34.133389
+[2021.10.28-19.38.07:345][827]LogTemp: Warning: 51.200954
+[2021.10.28-19.38.07:354][828]LogTemp: Warning: 68.268608
+[2021.10.28-19.38.07:362][829]LogTemp: Warning: 85.335419
+[2021.10.28-19.38.07:370][830]LogTemp: Warning: 102.402412
+[2021.10.28-19.38.07:379][831]LogTemp: Warning: 119.469215
+[2021.10.28-19.38.07:387][832]LogTemp: Warning: 136.535812
+[2021.10.28-19.38.07:396][833]LogTemp: Warning: 153.604050
+[2021.10.28-19.38.07:404][834]LogTemp: Warning: 170.671921
+[2021.10.28-19.38.07:412][835]LogTemp: Warning: 187.740402
+[2021.10.28-19.38.07:420][836]LogTemp: Warning: 204.808487
+[2021.10.28-19.38.07:429][837]LogTemp: Warning: 221.876709
+[2021.10.28-19.38.07:437][838]LogTemp: Warning: 238.943008
+[2021.10.28-19.38.07:446][839]LogTemp: Warning: 256.009796
+[2021.10.28-19.38.07:454][840]LogTemp: Warning: 273.076263
+[2021.10.28-19.38.07:462][841]LogTemp: Warning: 290.142914
+[2021.10.28-19.38.07:471][842]LogTemp: Warning: 299.999420
+[2021.10.28-19.38.07:479][843]LogTemp: Warning: 299.999634
+[2021.10.28-19.38.07:488][844]LogTemp: Warning: 187.382843
+[2021.10.28-19.38.07:496][845]LogTemp: Warning: 181.269699
+[2021.10.28-19.38.07:504][846]LogTemp: Warning: 177.235565
+[2021.10.28-19.38.07:512][847]LogTemp: Warning: 174.381912
+[2021.10.28-19.38.07:521][848]LogTemp: Warning: 172.055191
+[2021.10.28-19.38.07:529][849]LogTemp: Warning: 170.229889
+[2021.10.28-19.38.07:537][850]LogTemp: Warning: 168.868240
+[2021.10.28-19.38.07:546][851]LogTemp: Warning: 167.910355
+[2021.10.28-19.38.07:554][852]LogTemp: Warning: 167.324799
+[2021.10.28-19.38.07:561][853]LogTemp: Warning: 167.072250
+[2021.10.28-19.38.07:570][854]LogTemp: Warning: 167.121475
+[2021.10.28-19.38.07:579][855]LogTemp: Warning: 167.444290
+[2021.10.28-19.38.07:587][856]LogTemp: Warning: 168.019348
+[2021.10.28-19.38.07:595][857]LogTemp: Warning: 168.823944
+[2021.10.28-19.38.07:603][858]LogTemp: Warning: 169.838837
+[2021.10.28-19.38.07:612][859]LogTemp: Warning: 171.046997
+[2021.10.28-19.38.07:620][860]LogTemp: Warning: 172.433624
+[2021.10.28-19.38.07:628][861]LogTemp: Warning: 173.985291
+[2021.10.28-19.38.07:637][862]LogTemp: Warning: 175.693497
+[2021.10.28-19.38.07:645][863]LogTemp: Warning: 177.546249
+[2021.10.28-19.38.07:654][864]LogTemp: Warning: 179.536850
+[2021.10.28-19.38.07:662][865]LogTemp: Warning: 181.654999
+[2021.10.28-19.38.07:670][866]LogTemp: Warning: 183.891937
+[2021.10.28-19.38.07:679][867]LogTemp: Warning: 186.245682
+[2021.10.28-19.38.07:687][868]LogTemp: Warning: 188.706024
+[2021.10.28-19.38.07:695][869]LogTemp: Warning: 191.274185
+[2021.10.28-19.38.07:704][870]LogTemp: Warning: 193.988754
+[2021.10.28-19.38.07:712][871]LogTemp: Warning: 196.749786
+[2021.10.28-19.38.07:720][872]LogTemp: Warning: 199.611328
+[2021.10.28-19.38.07:729][873]LogTemp: Warning: 202.552078
+[2021.10.28-19.38.07:737][874]LogTemp: Warning: 205.605530
+[2021.10.28-19.38.07:745][875]LogTemp: Warning: 208.714600
+[2021.10.28-19.38.07:753][876]LogTemp: Warning: 211.908218
+[2021.10.28-19.38.07:762][877]LogTemp: Warning: 215.170670
+[2021.10.28-19.38.07:770][878]LogTemp: Warning: 218.508652
+[2021.10.28-19.38.07:779][879]LogTemp: Warning: 221.911377
+[2021.10.28-19.38.07:787][880]LogTemp: Warning: 225.379791
+[2021.10.28-19.38.07:795][881]LogTemp: Warning: 228.904419
+[2021.10.28-19.38.07:804][882]LogTemp: Warning: 232.487320
+[2021.10.28-19.38.07:813][883]LogTemp: Warning: 236.118759
+[2021.10.28-19.38.07:821][884]LogTemp: Warning: 253.181625
+[2021.10.28-19.38.07:829][885]LogTemp: Warning: 270.236053
+[2021.10.28-19.38.07:837][886]LogTemp: Warning: 287.269073
+[2021.10.28-19.38.07:846][887]LogTemp: Warning: 300.000214
+[2021.10.28-19.38.07:854][888]LogTemp: Warning: 300.000580
+[2021.10.28-19.38.07:862][889]LogTemp: Warning: 299.999573
+[2021.10.28-19.38.07:871][890]LogTemp: Warning: 300.000031
+[2021.10.28-19.38.07:879][891]LogTemp: Warning: 300.000397
+[2021.10.28-19.38.07:887][892]LogTemp: Warning: 300.000641
+[2021.10.28-19.38.07:895][893]LogTemp: Warning: 299.999573
+[2021.10.28-19.38.07:904][894]LogTemp: Warning: 299.999084
+[2021.10.28-19.38.07:912][895]LogTemp: Warning: 299.999115
+[2021.10.28-19.38.07:920][896]LogTemp: Warning: 300.000275
+[2021.10.28-19.38.07:929][897]LogTemp: Warning: 299.999634
+[2021.10.28-19.38.07:937][898]LogTemp: Warning: 299.999481
+[2021.10.28-19.38.07:945][899]LogTemp: Warning: 299.999664
+[2021.10.28-19.38.07:954][900]LogTemp: Warning: 300.000427
+[2021.10.28-19.38.07:962][901]LogTemp: Warning: 300.000458
+[2021.10.28-19.38.07:970][902]LogTemp: Warning: 300.000214
+[2021.10.28-19.38.07:979][903]LogTemp: Warning: 299.999481
+[2021.10.28-19.38.07:987][904]LogTemp: Warning: 300.000000
+[2021.10.28-19.38.07:995][905]LogTemp: Warning: 300.000092
+[2021.10.28-19.38.08:004][906]LogTemp: Warning: 300.000000
+[2021.10.28-19.38.08:012][907]LogTemp: Warning: 299.999817
+[2021.10.28-19.38.08:020][908]LogTemp: Warning: 300.000244
+[2021.10.28-19.38.08:029][909]LogTemp: Warning: 300.000336
+[2021.10.28-19.38.08:037][910]LogTemp: Warning: 299.999847
+[2021.10.28-19.38.08:045][911]LogTemp: Warning: 299.999847
+[2021.10.28-19.38.08:054][912]LogTemp: Warning: 299.998901
+[2021.10.28-19.38.08:062][913]LogTemp: Warning: 300.000244
+[2021.10.28-19.38.08:070][914]LogTemp: Warning: 300.000824
+[2021.10.28-19.38.08:079][915]LogTemp: Warning: 300.001312
+[2021.10.28-19.38.08:087][916]LogTemp: Warning: 299.998322
+[2021.10.28-19.38.08:095][917]LogTemp: Warning: 299.998322
+[2021.10.28-19.38.08:104][918]LogTemp: Warning: 300.000366
+[2021.10.28-19.38.08:112][919]LogTemp: Warning: 299.999817
+[2021.10.28-19.38.08:120][920]LogTemp: Warning: 299.998322
+[2021.10.28-19.38.08:129][921]LogTemp: Warning: 299.998871
+[2021.10.28-19.38.08:137][922]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:145][923]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:154][924]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:162][925]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:171][926]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:179][927]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:187][928]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:196][929]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:211][930]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:216][931]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:225][932]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:233][933]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:241][934]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:250][935]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:258][936]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:266][937]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:275][938]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:283][939]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:291][940]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:300][941]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:308][942]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:316][943]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:325][944]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:333][945]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:341][946]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:350][947]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:358][948]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:366][949]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:375][950]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:383][951]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:391][952]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:400][953]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:408][954]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:416][955]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:424][956]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:433][957]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:441][958]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:449][959]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:458][960]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:466][961]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:474][962]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:483][963]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:491][964]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:499][965]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:508][966]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:516][967]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:524][968]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:533][969]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:541][970]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:549][971]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:558][972]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:566][973]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:574][974]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:583][975]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:591][976]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:599][977]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:608][978]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:616][979]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:624][980]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:633][981]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:641][982]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:649][983]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:658][984]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:666][985]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:674][986]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:683][987]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:691][988]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:699][989]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:708][990]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:716][991]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:725][992]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:733][993]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:741][994]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:750][995]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:758][996]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:766][997]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:775][998]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:783][999]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:793][  0]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:804][  1]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:816][  2]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:823][  3]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:831][  4]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:839][  5]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:848][  6]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:856][  7]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:865][  8]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:873][  9]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:881][ 10]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:890][ 11]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:898][ 12]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:906][ 13]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:915][ 14]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:923][ 15]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:931][ 16]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:940][ 17]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:949][ 18]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:957][ 19]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:965][ 20]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:974][ 21]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:982][ 22]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:990][ 23]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.08:999][ 24]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:007][ 25]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:015][ 26]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:024][ 27]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:032][ 28]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:040][ 29]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:049][ 30]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:058][ 31]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:065][ 32]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:074][ 33]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:082][ 34]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:090][ 35]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:099][ 36]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:107][ 37]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:115][ 38]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:124][ 39]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:132][ 40]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:140][ 41]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:149][ 42]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:157][ 43]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:165][ 44]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:174][ 45]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:182][ 46]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:190][ 47]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:199][ 48]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:214][ 49]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:220][ 50]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:229][ 51]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:237][ 52]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:245][ 53]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:254][ 54]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:262][ 55]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:270][ 56]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:279][ 57]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:287][ 58]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:295][ 59]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:304][ 60]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:312][ 61]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:320][ 62]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:329][ 63]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:337][ 64]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:345][ 65]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:354][ 66]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:362][ 67]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:371][ 68]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:379][ 69]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:387][ 70]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:396][ 71]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:404][ 72]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:412][ 73]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:421][ 74]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:429][ 75]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:437][ 76]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:446][ 77]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:454][ 78]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:462][ 79]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:471][ 80]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:479][ 81]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:487][ 82]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:496][ 83]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:504][ 84]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:512][ 85]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:521][ 86]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:529][ 87]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:537][ 88]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:546][ 89]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:554][ 90]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:563][ 91]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:571][ 92]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:579][ 93]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:588][ 94]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:596][ 95]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:604][ 96]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:613][ 97]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:621][ 98]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:629][ 99]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:638][100]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:646][101]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:654][102]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:663][103]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:671][104]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:679][105]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:688][106]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:696][107]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:705][108]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:713][109]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:721][110]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:729][111]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:738][112]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:746][113]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:755][114]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:763][115]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:771][116]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:780][117]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:788][118]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:796][119]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:805][120]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:813][121]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:821][122]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:830][123]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:838][124]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:845][125]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:854][126]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:862][127]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:870][128]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:879][129]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:887][130]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:895][131]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:904][132]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:912][133]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:921][134]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:929][135]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:937][136]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:945][137]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:954][138]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:962][139]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:970][140]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:979][141]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:987][142]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.09:995][143]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:004][144]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:012][145]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:020][146]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:029][147]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:037][148]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:046][149]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:054][150]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:062][151]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:070][152]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:079][153]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:087][154]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:095][155]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:104][156]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:112][157]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:121][158]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:129][159]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:137][160]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:146][161]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:154][162]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:162][163]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:171][164]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:179][165]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:187][166]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:196][167]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:204][168]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:220][169]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:225][170]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:233][171]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:242][172]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:250][173]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:258][174]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:267][175]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:275][176]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:283][177]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:291][178]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:300][179]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:308][180]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:317][181]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:325][182]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:333][183]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:341][184]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:350][185]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:358][186]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:367][187]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:375][188]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:383][189]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:391][190]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:400][191]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:409][192]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:417][193]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:425][194]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:434][195]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:442][196]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:450][197]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:459][198]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:468][199]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:476][200]LogTemp: Warning: 0.000000
+[2021.10.28-19.38.10:484][201]LogTemp: Warning: test
+[2021.10.28-19.38.10:484][201]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+Enemy.CombatSphereOnOverlapEnd
+
+[2021.10.28-19.38.10:484][201]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2021.10.28-19.38.13:236][201]LogWindows: Error: === Critical error: ===
+[2021.10.28-19.38.13:236][201]LogWindows: Error: 
+[2021.10.28-19.38.13:236][201]LogWindows: Error: Assertion failed: IsValid() [File:E:\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h] [Line: 890] 
+[2021.10.28-19.38.13:236][201]LogWindows: Error: 
+[2021.10.28-19.38.13:236][201]LogWindows: Error: 
+[2021.10.28-19.38.13:236][201]LogWindows: Error: 
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffadc9a4f99 KERNELBASE.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa86c00346 UE4Editor-Core.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa86c04348 UE4Editor-Core.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa8692255d UE4Editor-Core.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa86876b75 UE4Editor-Core.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa868781d0 UE4Editor-Core.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa60c55b03 UE4Editor-FirstProject-0089.dll!AEnemy::MoveToTarget() [E:\Unreal Project\FirstProject\Source\FirstProject\Enemy.cpp:97]
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa60c55a56 UE4Editor-FirstProject-0089.dll!AEnemy::CombatSphereOnOverlapEnd() [E:\Unreal Project\FirstProject\Source\FirstProject\Enemy.cpp:82]
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa60c5e65d UE4Editor-FirstProject-0089.dll!AEnemy::execCombatSphereOnOverlapEnd() [E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Inc\FirstProject\Enemy.gen.cpp:99]
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffaa7061894 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffaa7343b63 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7b6e93ea UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7b5d8dab UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7bb3afc7 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7bb6f917 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7bb94f26 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7bb7e048 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7baf2cd7 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7bae0a51 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7bb0f2e0 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7ba691a7 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7ba9eea4 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7c8e442e UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7c8ed604 UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa86682398 UE4Editor-Core.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa866827ce UE4Editor-Core.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa866940bd UE4Editor-Core.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7c9096de UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7c90fdda UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7bff32df UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa7bffe0cc UE4Editor-Engine.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa8460f1c3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffa84f106e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ff78e5c87a0 UE4Editor.exe!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ff78e5e0fbc UE4Editor.exe!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ff78e5e10aa UE4Editor.exe!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ff78e5e40cd UE4Editor.exe!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ff78e5f5984 UE4Editor.exe!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ff78e5f853a UE4Editor.exe!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffadea17034 KERNEL32.DLL!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: [Callstack] 0x00007ffadf2a2651 ntdll.dll!UnknownFunction []
+[2021.10.28-19.38.13:236][201]LogWindows: Error: 
+[2021.10.28-19.38.13:253][201]LogExit: Executing StaticShutdownAfterError
+[2021.10.28-19.38.13:256][201]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.10.28-19.38.13:256][201]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+[2021.10.28-19.38.13:256][201]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.10.28-19.38.13:269][201]Log file closed, 10/29/21 04:38:13
