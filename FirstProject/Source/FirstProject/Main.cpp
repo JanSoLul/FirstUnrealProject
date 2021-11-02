@@ -69,6 +69,7 @@ AMain::AMain()
 
 	MovementStatus = EMovementStatus::EMS_Normal;
 	StaminaStatus = EStaminaStatus::ESS_Normal;
+	AttackStatus = EAttackStatus::EAS_DontAttack;
 
 	StaminaDrainRate = 25.f;
 	StaminaRecoveryRate = 15.f;
@@ -79,6 +80,11 @@ AMain::AMain()
 	bIsQSkillCoolDown = false;
 	bIsESkillCoolDown = false;
 	bIsRSkillCoolDown = false;
+
+	DamageCoefficientMap.Add(TEXT("NormalAttack"), 1.f);
+	DamageCoefficientMap.Add(TEXT("AttackQ"), 1.5f);
+	DamageCoefficientMap.Add(TEXT("AttackE"), 1.8f);
+	DamageCoefficientMap.Add(TEXT("AttackR"), 2.f);
 }
 
 // Called when the game starts or when spawned
@@ -231,7 +237,11 @@ void AMain::DecrementHealth(float Amount) {
 
 
 void AMain::Die() {
-
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	if (AnimInstance && CombatMontage) {
+		AnimInstance->Montage_Play(CombatMontage, 1.f);
+		AnimInstance->Montage_JumpToSection(FName("Death"));
+	}
 }
 
 void AMain::IncrementCoin() {
@@ -283,6 +293,7 @@ void AMain::Attack() {
 	if (!bAttacking) {
 		bAttacking = true;
 		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		AttackStatus = EAttackStatus::EAS_NormalAttack;
 		if (AnimInstance && CombatMontage) {
 			int32 RandNum = FMath::RandRange(0, 1);
 			if (RandNum == 0) {
@@ -300,6 +311,7 @@ void AMain::Attack() {
 void AMain::AttackQ() {
 	if (bIsEquipped) {
 		if (QSkillCoolDown >= QSkillCool) {
+			AttackStatus = EAttackStatus::EAS_AttackQ;
 			bIsQSkillCoolDown = true;
 			QSkillCoolDown = 0.f;
 			bAttacking = true;
@@ -315,6 +327,7 @@ void AMain::AttackQ() {
 void AMain::AttackE() {
 	if (bIsEquipped) {
 		if (ESkillCoolDown >= ESkillCool) {
+			AttackStatus = EAttackStatus::EAS_AttackE;
 			bIsESkillCoolDown = true;
 			ESkillCoolDown = 0.f;
 			bAttacking = true;
@@ -330,6 +343,7 @@ void AMain::AttackE() {
 void AMain::AttackR() {
 	if (bIsEquipped) {
 		if (RSkillCoolDown >= RSkillCool) {
+			AttackStatus = EAttackStatus::EAS_AttackR;
 			bIsRSkillCoolDown = true;
 			RSkillCoolDown = 0.f;
 			bAttacking = true;
@@ -343,6 +357,7 @@ void AMain::AttackR() {
 }
 
 void AMain::AttackEnd() {
+	AttackStatus = EAttackStatus::EAS_DontAttack;
 	bAttacking = false;
 	if (bIsLeftMouseButtonPressed) {
 		Attack();
@@ -353,3 +368,8 @@ void AMain::AttackEnd() {
 void AMain::AttackReleased() {
 }
 
+float AMain::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) {
+	DecrementHealth(DamageAmount);
+
+	return DamageAmount;
+}

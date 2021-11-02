@@ -8,18 +8,29 @@
 
 UENUM(BlueprintType)
 enum class EMovementStatus : uint8 {
-	EMS_Normal UMETA(DisplayName = "Normal"),
-	EMS_Sprinting UMETA(DisplayName = "Sprinting"),
+	EMS_Normal		UMETA(DisplayName = "Normal"),
+	EMS_Sprinting	UMETA(DisplayName = "Sprinting"),
 
-	EMS_MAX UMETA(DisplayName = "DefaultMax")
+	EMS_MAX			UMETA(DisplayName = "DefaultMax")
 };
 
 UENUM(BlueprintType)
 enum class EStaminaStatus : uint8 {
-	ESS_Normal UMETA(DisplayName = "Normal"),
-	ESS_Exhuasted UMETA(DisplayName = "Exhuasted"),
+	ESS_Normal		UMETA(DisplayName = "Normal"),
+	ESS_Exhuasted	UMETA(DisplayName = "Exhuasted"),
 
-	ESS_MAX UMETA(DisplayName = "DefaultMax"),
+	ESS_MAX			UMETA(DisplayName = "DefaultMax"),
+};
+
+UENUM(BlueprintType)
+enum class EAttackStatus : uint8 {
+	EAS_DontAttack		UMETA(DisplayName = "DontAttack"),
+	EAS_NormalAttack	UMETA(DisplayName = "NormalAttack"),
+	EAS_AttackQ			UMETA(DisplayName = "AttackQ"),
+	EAS_AttackE			UMETA(DisplayName = "AttackE"),
+	EAS_AttackR			UMETA(DisplayName = "AttackR"),
+
+	EAS_MAX				UMETA(DisplayName = "DefaultMax"),
 };
 
 UCLASS()
@@ -37,6 +48,11 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Enums")
 	EStaminaStatus StaminaStatus;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Enums")
+	EAttackStatus AttackStatus;
+
+	class TMap<FString, float> DamageCoefficientMap;
+
 	/** Camera Boom -> Player 뒤에 카메라를 위치시킨다. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
@@ -44,6 +60,9 @@ public:
 	/** Camera Boom에 따라오는 Camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	class UParticleSystem* BloodParticles;
 
 	/** Camera의 기본 회전 속도 */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
@@ -154,10 +173,12 @@ public:
 	/** 체력 Amount 만큼 감소 */
 	void DecrementHealth(float Amount);
 
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser) override;
+
 	/** Coin 수 증가 함수 */
 	void IncrementCoin();
 
-	/** 캐릭터가 죽었는지 체크 */
+	/** 캐릭터가 죽었을 때 */
 	void Die();
 
 	/** 캐릭터 운동 상태와 Running 속도 설정 */

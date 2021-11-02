@@ -2,10 +2,10 @@
   Using Visual Studio 2019 14.29.30133 toolchain (D:\Program Files\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (D:\Windows Kits\10).
   Building 4 actions with 4 processes...
     [1/4] Enemy.cpp
-    [2/4] UE4Editor-FirstProject-0107.lib
-       E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0107.lib 라이브러리 및 E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0107.exp 개체를 생성하고 있습니다.
-    [3/4] UE4Editor-FirstProject-0107.dll
-       E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0107.suppressed.lib 라이브러리 및 E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0107.suppressed.exp 개체를 생성하고 있습니다.
+    [2/4] UE4Editor-FirstProject-0134.lib
+       E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0134.lib 라이브러리 및 E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0134.exp 개체를 생성하고 있습니다.
+    [3/4] UE4Editor-FirstProject-0134.dll
+       E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0134.suppressed.lib 라이브러리 및 E:\Unreal Project\FirstProject\Intermediate\Build\Win64\UE4Editor\Development\FirstProject\UE4Editor-FirstProject-0134.suppressed.exp 개체를 생성하고 있습니다.
     [4/4] FirstProjectEditor.target
-  Total time in Parallel executor: 3.62 seconds
-  Total execution time: 5.15 seconds
+  Total time in Parallel executor: 4.22 seconds
+  Total execution time: 5.71 seconds
